@@ -1,1236 +1,1894 @@
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-  <link rel="dns-prefetch" href="https://github.githubassets.com">
-  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
-  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
-
-
-
-  <link crossorigin="anonymous" media="all" integrity="sha512-ewBVWzTidUfkIA/GRtD5kGS5AtVPpm8zpUXbCgMZ6xOI8wSa6QT6psJ9FNdwKsZ+PNVNncnR4YJcxrUlJ+/8LQ==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-7b00555b34e27547e4200fc646d0f990.css" />
-  
-    <link crossorigin="anonymous" media="all" integrity="sha512-z3bA0y0jOQZnZaO1OkqE1OKr/DTmEmOfJyEblXESzZdzbQPHGcLe4mB8askHLbD6qV9IbKltKwwSw9svSeC0mA==" rel="stylesheet" href="https://github.githubassets.com/assets/github-cf76c0d32d2339066765a3b53a4a84d4.css" />
-    
-    
-    
-    
-
-
-  <meta name="viewport" content="width=device-width">
-  
-  <title>UT-MCC-DATA-PT-01-2020-U-C/Study_results.csv at master · the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C</title>
-    <meta name="description" content="Contribute to the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C development by creating an account on GitHub.">
-    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
-  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
-  <meta property="fb:app_id" content="1401488693436528">
-
-    <meta name="twitter:image:src" content="https://avatars2.githubusercontent.com/u/17503864?s=400&amp;v=4" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C" /><meta name="twitter:description" content="Contribute to the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C development by creating an account on GitHub." />
-    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/17503864?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C" /><meta property="og:url" content="https://github.com/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C" /><meta property="og:description" content="Contribute to the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C development by creating an account on GitHub." />
-
-  <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDk3NjAyMjAyOmNlYzVhYmYyZDY1NzY4MDY3ZTZmNzBjMjBlZWY1ZDE5N2Y0NzNiNDU1Y2VjNjM5ZGI0ZmI0MjU4NTg3ZjgwZWU=--1b0be481a9db7d9b8d59b4bbcbb4df2746639a0c">
-  <link rel="sudo-modal" href="/sessions/sudo_modal">
-
-  <meta name="request-id" content="DB30:294D:2475BE:3E22C9:5E63AA89" data-pjax-transient="true" /><meta name="html-safe-nonce" content="7518bbd13eb4fd15663f1b3b3da5d79cf07195de" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS90aGUtQ29kaW5nLUJvb3QtQ2FtcC1hdC1VVC9VVC1NQ0MtREFUQS1QVC0wMS0yMDIwLVUtQy90cmVlL21hc3Rlci9ob21ld29yay1pbnN0cnVjdGlvbnMvMDUtTWF0cGxvdGxpYi9JbnN0cnVjdGlvbnMvUHltYWNldXRpY2Fscy9kYXRhIiwicmVxdWVzdF9pZCI6IkRCMzA6Mjk0RDoyNDc1QkU6M0UyMkM5OjVFNjNBQTg5IiwidmlzaXRvcl9pZCI6IjI0NDQ4Mzg2MDY0NDA3MDg1NDEiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="693089a9275951d8b205557c1b6bd6138c58bd7afa1291b05248e8fc0334970d" data-pjax-transient="true" />
-
-
-
-  <meta name="github-keyboard-shortcuts" content="repository,source-code" data-pjax-transient="true" />
-
-  
-
-  <meta name="selected-link" value="repo_source" data-pjax-transient>
-
-      <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
-    <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
-    <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
-
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-actor-id" content="2307210" /><meta name="octolytics-actor-login" content="glandsly" /><meta name="octolytics-actor-hash" content="bf17cc505eaf8f7c8769bd9b428f4d2677c8f2b9c10c5889f721828deba1767d" />
-<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
-
-
-
-    <meta name="google-analytics" content="UA-3769691-2">
-
-  <meta class="js-ga-set" name="userId" content="60a5e67928ca063a2be98843512517eb">
-
-<meta class="js-ga-set" name="dimension1" content="Logged In">
-
-
-
-  
-
-      <meta name="hostname" content="github.com">
-    <meta name="user-login" content="glandsly">
-
-      <meta name="expected-hostname" content="github.com">
-
-      <meta name="js-proxy-site-detection-payload" content="Y2JjMWNiYTlhZmI3OThjZDY5ZGFlNGRjZjQxNjIwNDYyZDRmY2I0NmEzOGM2YzM5YTIyODMxYzA1MTBjODFkOXx7InJlbW90ZV9hZGRyZXNzIjoiMTM2LjQ5LjgzLjEyMiIsInJlcXVlc3RfaWQiOiJEQjMwOjI5NEQ6MjQ3NUJFOjNFMjJDOTo1RTYzQUE4OSIsInRpbWVzdGFtcCI6MTU4MzU5MDA0NSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
-
-    <meta name="enabled-features" content="MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,RELATED_ISSUES,GHE_CLOUD_TRIAL,PAGE_STALE_CHECK">
-
-  <meta http-equiv="x-pjax-version" content="b2a5d8217064b658916016fb912fed29">
-  
-
-      <link href="https://github.com/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/commits/master.atom?token=AARTJCWE45JHEF672Q2JRPN4N6FZ2" rel="alternate" title="Recent Commits to UT-MCC-DATA-PT-01-2020-U-C:master" type="application/atom+xml">
-
-  <meta name="go-import" content="github.com/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C git https://github.com/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C.git">
-
-  <meta name="octolytics-dimension-user_id" content="17503864" /><meta name="octolytics-dimension-user_login" content="the-Coding-Boot-Camp-at-UT" /><meta name="octolytics-dimension-repository_id" content="229166380" /><meta name="octolytics-dimension-repository_nwo" content="the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C" /><meta name="octolytics-dimension-repository_public" content="false" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="229166380" /><meta name="octolytics-dimension-repository_network_root_nwo" content="the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
-
-
-    <link rel="canonical" href="https://github.com/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/blob/master/homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data/Study_results.csv" data-pjax-transient>
-
-
-  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
-
-  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
-
-  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
-  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://github.githubassets.com/favicon.ico">
-
-<meta name="theme-color" content="#1e2327">
-
-
-  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class="logged-in env-production page-responsive page-blob">
-    
-
-  <div class="position-relative js-header-wrapper ">
-    <a href="#start-of-content" tabindex="1" class="p-3 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
-    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
-      <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
-    </span>
-
-    
-    
-
-
-
-          <header class="Header js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
-
-    <div class="Header-item d-none d-lg-flex">
-      <a class="Header-link" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
-  <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-</a>
-
-    </div>
-
-    <div class="Header-item d-lg-none">
-      <button class="Header-link btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
-        <svg height="24" class="octicon octicon-three-bars" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
-      </button>
-    </div>
-
-    <div class="Header-item Header-item--full flex-column flex-lg-row width-full flex-order-2 flex-lg-order-none mr-0 mr-lg-3 mt-3 mt-lg-0 Details-content--hidden">
-        <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
-  role="combobox"
-  aria-owns="jump-to-results"
-  aria-label="Search or jump to"
-  aria-haspopup="listbox"
-  aria-expanded="false"
->
-  <div class="position-relative">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="229166380" data-scoped-search-url="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/search" data-unscoped-search-url="/search" action="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/search" accept-charset="UTF-8" method="get">
-      <label class="form-control input-sm header-search-wrapper p-0 header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
-        <input type="text"
-          class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
-          data-hotkey="s,/"
-          name="q"
-          value=""
-          placeholder="Search or jump to…"
-          data-unscoped-placeholder="Search or jump to…"
-          data-scoped-placeholder="Search or jump to…"
-          autocapitalize="off"
-          aria-autocomplete="list"
-          aria-controls="jump-to-results"
-          aria-label="Search or jump to…"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations"
-          spellcheck="false"
-          autocomplete="off"
-          >
-          <input type="hidden" value="Tk7WvjKokVtftnbHRKPdb5lUyDTzISz1RLEj4AhaBQiR2acal27FjV5yqyDW61wirgaLa924ggTthaYP9ieHAA==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
-          <input type="hidden" class="js-site-search-type-field" name="type" >
-            <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
-
-            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
-              
-<ul class="d-none js-jump-to-suggestions-template-container">
-  
-
-<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
-  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
-    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
-      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
-      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg>
-      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
-    </div>
-
-    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
-
-    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
-    </div>
-
-    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
-      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
-        In this repository
-      </span>
-      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
-        All GitHub
-      </span>
-      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-
-    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
-      Jump to
-      <span class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-  </a>
-</li>
-
-</ul>
-
-<ul class="d-none js-jump-to-no-results-template-container">
-  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
-    <span class="text-gray">No suggested jump to results</span>
-  </li>
-</ul>
-
-<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
-  
-
-<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
-  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
-    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
-      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
-      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg>
-      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
-    </div>
-
-    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
-
-    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
-    </div>
-
-    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
-      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
-        In this repository
-      </span>
-      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
-        All GitHub
-      </span>
-      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-
-    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
-      Jump to
-      <span class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-  </a>
-</li>
-
-  
-
-<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
-  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
-    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
-      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
-      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg>
-      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
-    </div>
-
-    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
-
-    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
-    </div>
-
-    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
-      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
-        In this repository
-      </span>
-      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
-        All GitHub
-      </span>
-      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-
-    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
-      Jump to
-      <span class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-  </a>
-</li>
-
-
-    <li class="d-flex flex-justify-center flex-items-center p-0 f5 js-jump-to-suggestion">
-      <img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" alt="Octocat Spinner Icon" class="m-2" width="28">
-    </li>
-</ul>
-
-            </div>
-      </label>
-</form>  </div>
-</div>
-
-
-        <nav class="d-flex flex-column flex-lg-row flex-self-stretch flex-lg-self-auto" aria-label="Global">
-    <a class="Header-link d-block d-lg-none py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:dashboard:user" aria-label="Dashboard" href="/dashboard">
-      Dashboard
-</a>
-
-  <a class="js-selected-navigation-item Header-link  mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15" data-hotkey="g p" data-ga-click="Header, click, Nav menu - item:pulls context:user" aria-label="Pull requests you created" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls" href="/pulls">
-    Pull requests
-</a>
-  <a class="js-selected-navigation-item Header-link  mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15" data-hotkey="g i" data-ga-click="Header, click, Nav menu - item:issues context:user" aria-label="Issues you created" data-selected-links="/issues /issues/assigned /issues/mentioned /issues" href="/issues">
-    Issues
-</a>
-    <div class="mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15">
-      <a class="js-selected-navigation-item Header-link" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-octo-click="marketplace_click" data-octo-dimensions="location:nav_bar" data-selected-links=" /marketplace" href="/marketplace">
-        Marketplace
-</a>      
-
-    </div>
-
-  <a class="js-selected-navigation-item Header-link  mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
-    Explore
-</a>
-
-
-    <a class="Header-link d-block d-lg-none mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15" href="https://github.com/glandsly">
-      <img class="avatar" height="20" width="20" alt="@glandsly" src="https://avatars2.githubusercontent.com/u/2307210?s=60&amp;v=4" />
-      glandsly
-</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="2UlMAxtPSVYHl+rNgyeZVlel7S6cSHMi3XKHG/PrvFsZ0PSgxossJ8DxK8/3I8t4Cp7EaUMWlQBp4z0Rm0kT0g==" />
-      <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
-        <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"/></svg>
-        Sign out
-      </button>
-</form></nav>
-
-    </div>
-
-    <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative">
-      <div class="css-truncate css-truncate-target width-fit position-absolute left-0 right-0 text-center">
-              <svg class="octicon octicon-lock" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 13H3v-1h1v1zm8-6v7c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h1V4c0-2.2 1.8-4 4-4s4 1.8 4 4v2h1c.55 0 1 .45 1 1zM3.8 6h4.41V4c0-1.22-.98-2.2-2.2-2.2-1.22 0-2.2.98-2.2 2.2v2H3.8zM11 7H2v7h9V7zM4 8H3v1h1V8zm0 2H3v1h1v-1z"/></svg>
-    <a class="Header-link" href="/the-Coding-Boot-Camp-at-UT">the-Coding-Boot-Camp-at-UT</a>
-    /
-    <a class="Header-link" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C">UT-MCC-DATA-PT-01-2020-U-C</a>
-
-</div>
-    </div>
-
-    <div class="Header-item mr-0 mr-lg-3 flex-order-1 flex-lg-order-none">
-      
-
-    <a aria-label="You have no unread notifications" class="Header-link notification-indicator position-relative tooltipped tooltipped-sw js-socket-channel js-notification-indicator" data-hotkey="g n" data-ga-click="Header, go to notifications, icon:read" data-channel="notification-changed:2307210" href="/notifications/beta">
-        <span class="js-indicator-modifier mail-status "></span>
-        <svg class="octicon octicon-bell" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 12v1H0v-1l.73-.58c.77-.77.81-2.55 1.19-4.42C2.69 3.23 6 2 6 2c0-.55.45-1 1-1s1 .45 1 1c0 0 3.39 1.23 4.16 5 .38 1.88.42 3.66 1.19 4.42l.66.58H14zm-7 4c1.11 0 2-.89 2-2H5c0 1.11.89 2 2 2z"/></svg>
-</a>
-    </div>
-
-
-    <div class="Header-item position-relative d-none d-lg-flex">
-      <details class="details-overlay details-reset">
-  <summary class="Header-link"
-      aria-label="Create new…"
-      data-ga-click="Header, create new, icon:add">
-    <svg class="octicon octicon-plus" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"/></svg> <span class="dropdown-caret"></span>
-  </summary>
-  <details-menu class="dropdown-menu dropdown-menu-sw">
-    
-<a role="menuitem" class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
-  New repository
-</a>
-
-  <a role="menuitem" class="dropdown-item" href="/new/import" data-ga-click="Header, import a repository">
-    Import repository
-  </a>
-
-<a role="menuitem" class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
-  New gist
-</a>
-
-  <a role="menuitem" class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
-    New organization
-  </a>
-
-
-  <div role="none" class="dropdown-divider"></div>
-  <div class="dropdown-header">
-    <span title="the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C">This repository</span>
-  </div>
-    <a role="menuitem" class="dropdown-item" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/issues/new" data-ga-click="Header, create new issue" data-skip-pjax>
-      New issue
-    </a>
-
-
-  </details-menu>
-</details>
-
-    </div>
-
-    <div class="Header-item position-relative mr-0 d-none d-lg-flex">
-      
-  <details class="details-overlay details-reset js-feature-preview-indicator-container" data-feature-preview-indicator-src="/users/glandsly/feature_preview/indicator_check.json">
-
-  <summary class="Header-link"
-    aria-label="View profile and more"
-    data-ga-click="Header, show menu, icon:avatar">
-    <img class="avatar " alt="@glandsly" width="20" height="20" src="https://avatars2.githubusercontent.com/u/2307210?s=60&amp;v=4">
-
-
-      <span class="feature-preview-indicator js-feature-preview-indicator" hidden></span>
-    <span class="dropdown-caret"></span>
-  </summary>
-  <details-menu class="dropdown-menu dropdown-menu-sw mt-2" style="width: 180px">
-    <div class="header-nav-current-user css-truncate"><a role="menuitem" class="no-underline user-profile-link px-3 pt-2 pb-2 mb-n2 mt-n1 d-block" href="/glandsly" data-ga-click="Header, go to profile, text:Signed in as">Signed in as <strong class="css-truncate-target">glandsly</strong></a></div>
-    <div role="none" class="dropdown-divider"></div>
-
-      <div class="pl-3 pr-3 f6 user-status-container js-user-status-context pb-1" data-url="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1">
-        
-<div class="js-user-status-container
-    user-status-compact rounded-1 px-2 py-1 mt-2
-    border
-  " data-team-hovercards-enabled>
-  <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
-    <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:17503864,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:2307210,&quot;originating_url&quot;:&quot;https://github.com/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/blob/master/homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data/Study_results.csv&quot;}}" data-hydro-click-hmac="a831c1706b723bf71b23959058f9e4ecc9f2924b1b8801f5d05c0ce88e5867fc">
-      <div class="d-flex">
-        <div class="f6 lh-condensed user-status-header
-          d-inline-block v-align-middle
-            user-status-emoji-only-header circle
-            pr-2
-"
-            style="max-width: 29px"
-          >
-          <div class="user-status-emoji-container flex-shrink-0 mr-1 mt-1 lh-condensed-ultra v-align-bottom" style="">
-            <svg class="octicon octicon-smiley" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm4.81 12.81a6.72 6.72 0 01-2.17 1.45c-.83.36-1.72.53-2.64.53-.92 0-1.81-.17-2.64-.53-.81-.34-1.55-.83-2.17-1.45a6.773 6.773 0 01-1.45-2.17A6.59 6.59 0 011.21 8c0-.92.17-1.81.53-2.64.34-.81.83-1.55 1.45-2.17.62-.62 1.36-1.11 2.17-1.45A6.59 6.59 0 018 1.21c.92 0 1.81.17 2.64.53.81.34 1.55.83 2.17 1.45.62.62 1.11 1.36 1.45 2.17.36.83.53 1.72.53 2.64 0 .92-.17 1.81-.53 2.64-.34.81-.83 1.55-1.45 2.17zM4 6.8v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2H5.2C4.53 8 4 7.47 4 6.8zm5 0v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2h-.59C9.53 8 9 7.47 9 6.8zm4 3.2c-.72 1.88-2.91 3-5 3s-4.28-1.13-5-3c-.14-.39.23-1 .66-1h8.59c.41 0 .89.61.75 1z"/></svg>
-          </div>
-        </div>
-        <div class="
-          d-inline-block v-align-middle
-          
-          
-           css-truncate css-truncate-target 
-           user-status-message-wrapper f6"
-           style="line-height: 20px;" >
-          <div class="d-inline-block text-gray-dark v-align-text-top text-left">
-              <span class="text-gray ml-2">Set status</span>
-          </div>
-        </div>
-      </div>
-    </summary>
-    <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="uNsEsC62Jve0RzOcsKyeS3ESj1ijX5CMsoHgOGlr2RVAX0pNv8u9jYEZnjr4MgPAsodMoIePC0ZGf6dvem9vwg==" />
-        <div class="Box-header bg-gray border-bottom p-3">
-          <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
-            <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-          </button>
-          <h3 class="Box-title f5 text-bold text-gray-dark">Edit status</h3>
-        </div>
-        <input type="hidden" name="emoji" class="js-user-status-emoji-field" value="">
-        <input type="hidden" name="organization_id" class="js-user-status-org-id-field" value="">
-        <div class="px-3 py-2 text-gray-dark">
-          <div class="js-characters-remaining-container position-relative mt-2">
-            <div class="input-group d-table form-group my-0 js-user-status-form-group">
-              <span class="input-group-button d-table-cell v-align-middle" style="width: 1%">
-                <button type="button" aria-label="Choose an emoji" class="btn-outline btn js-toggle-user-status-emoji-picker btn-open-emoji-picker p-0">
-                  <span class="js-user-status-original-emoji" hidden></span>
-                  <span class="js-user-status-custom-emoji"></span>
-                  <span class="js-user-status-no-emoji-icon" >
-                    <svg class="octicon octicon-smiley" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm4.81 12.81a6.72 6.72 0 01-2.17 1.45c-.83.36-1.72.53-2.64.53-.92 0-1.81-.17-2.64-.53-.81-.34-1.55-.83-2.17-1.45a6.773 6.773 0 01-1.45-2.17A6.59 6.59 0 011.21 8c0-.92.17-1.81.53-2.64.34-.81.83-1.55 1.45-2.17.62-.62 1.36-1.11 2.17-1.45A6.59 6.59 0 018 1.21c.92 0 1.81.17 2.64.53.81.34 1.55.83 2.17 1.45.62.62 1.11 1.36 1.45 2.17.36.83.53 1.72.53 2.64 0 .92-.17 1.81-.53 2.64-.34.81-.83 1.55-1.45 2.17zM4 6.8v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2H5.2C4.53 8 4 7.47 4 6.8zm5 0v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2h-.59C9.53 8 9 7.47 9 6.8zm4 3.2c-.72 1.88-2.91 3-5 3s-4.28-1.13-5-3c-.14-.39.23-1 .66-1h8.59c.41 0 .89.61.75 1z"/></svg>
-                  </span>
-                </button>
-              </span>
-              <text-expander keys=": @" data-mention-url="/autocomplete/user-suggestions" data-emoji-url="/autocomplete/emoji">
-                <input
-                  type="text"
-                  autocomplete="off"
-                  data-no-org-url="/autocomplete/user-suggestions"
-                  data-org-url="/suggestions?mention_suggester=1"
-                  data-maxlength="80"
-                  class="d-table-cell width-full form-control js-user-status-message-field js-characters-remaining-field"
-                  placeholder="What's happening?"
-                  name="message"
-                  value=""
-                  aria-label="What is your current status?">
-              </text-expander>
-              <div class="error">Could not update your status, please try again.</div>
-            </div>
-            <div style="margin-left: 53px" class="my-1 text-small label-characters-remaining js-characters-remaining" data-suffix="remaining" hidden>
-              80 remaining
-            </div>
-          </div>
-          <include-fragment class="js-user-status-emoji-picker" data-url="/users/status/emoji"></include-fragment>
-          <div class="overflow-auto ml-n3 mr-n3 px-3 border-bottom" style="max-height: 33vh">
-            <div class="user-status-suggestions js-user-status-suggestions collapsed overflow-hidden">
-              <h4 class="f6 text-normal my-3">Suggestions:</h4>
-              <div class="mx-3 mt-2 clearfix">
-                  <div class="float-left col-6">
-                      <button type="button" value=":palm_tree:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
-                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
-                          <g-emoji alias="palm_tree" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f334.png">🌴</g-emoji>
-                        </div>
-                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
-                          On vacation
-                        </div>
-                      </button>
-                      <button type="button" value=":face_with_thermometer:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
-                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
-                          <g-emoji alias="face_with_thermometer" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f912.png">🤒</g-emoji>
-                        </div>
-                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
-                          Out sick
-                        </div>
-                      </button>
-                  </div>
-                  <div class="float-left col-6">
-                      <button type="button" value=":house:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
-                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
-                          <g-emoji alias="house" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3e0.png">🏠</g-emoji>
-                        </div>
-                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
-                          Working from home
-                        </div>
-                      </button>
-                      <button type="button" value=":dart:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
-                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
-                          <g-emoji alias="dart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3af.png">🎯</g-emoji>
-                        </div>
-                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
-                          Focusing
-                        </div>
-                      </button>
-                  </div>
-              </div>
-            </div>
-            <div class="user-status-limited-availability-container">
-              <div class="form-checkbox my-0">
-                <input type="checkbox" name="limited_availability" value="1" class="js-user-status-limited-availability-checkbox" data-default-message="I may be slow to respond." aria-describedby="limited-availability-help-text-truncate-true-compact-true" id="limited-availability-truncate-true-compact-true">
-                <label class="d-block f5 text-gray-dark mb-1" for="limited-availability-truncate-true-compact-true">
-                  Busy
-                </label>
-                <p class="note" id="limited-availability-help-text-truncate-true-compact-true">
-                  When others mention you, assign you, or request your review,
-                  GitHub will let them know that you have limited availability.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="d-inline-block f5 mr-2 pt-3 pb-2" >
-  <div class="d-inline-block mr-1">
-    Clear status
-  </div>
-
-  <details class="js-user-status-expire-drop-down f6 dropdown details-reset details-overlay d-inline-block mr-2">
-    <summary class="f5 btn-link link-gray-dark border px-2 py-1 rounded-1" aria-haspopup="true">
-      <div class="js-user-status-expiration-interval-selected d-inline-block v-align-baseline">
-        Never
-      </div>
-      <div class="dropdown-caret"></div>
-    </summary>
-
-    <ul class="dropdown-menu dropdown-menu-se pl-0 overflow-auto" style="width: 220px; max-height: 15.5em">
-      <li>
-        <button type="button" class="btn-link dropdown-item js-user-status-expire-button ws-normal" title="Never">
-          <span class="d-inline-block text-bold mb-1">Never</span>
-          <div class="f6 lh-condensed">Keep this status until you clear your status or edit your status.</div>
-        </button>
-      </li>
-      <li class="dropdown-divider" role="none"></li>
-        <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-03-07T08:37:25-06:00">
-            in 30 minutes
-          </button>
-        </li>
-        <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-03-07T09:07:25-06:00">
-            in 1 hour
-          </button>
-        </li>
-        <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-03-07T12:07:25-06:00">
-            in 4 hours
-          </button>
-        </li>
-        <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="today" value="2020-03-07T23:59:59-06:00">
-            today
-          </button>
-        </li>
-        <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="this week" value="2020-03-08T23:59:59-05:00">
-            this week
-          </button>
-        </li>
-    </ul>
-  </details>
-  <input class="js-user-status-expiration-date-input" type="hidden" name="expires_at" value="">
-</div>
-
-          <include-fragment class="js-user-status-org-picker" data-url="/users/status/organizations"></include-fragment>
-        </div>
-        <div class="d-flex flex-items-center flex-justify-between p-3 border-top">
-          <button type="submit" disabled class="width-full btn btn-primary mr-2 js-user-status-submit">
-            Set status
-          </button>
-          <button type="button" disabled class="width-full js-clear-user-status-button btn ml-2 ">
-            Clear status
-          </button>
-        </div>
-</form>    </details-dialog>
-  </details>
-</div>
-
-      </div>
-      <div role="none" class="dropdown-divider"></div>
-
-
-    <a role="menuitem" class="dropdown-item" href="/glandsly" data-ga-click="Header, go to profile, text:your profile">Your profile</a>
-
-    <a role="menuitem" class="dropdown-item" href="/glandsly?tab=repositories" data-ga-click="Header, go to repositories, text:your repositories">Your repositories</a>
-
-    <a role="menuitem" class="dropdown-item" href="/glandsly?tab=projects" data-ga-click="Header, go to projects, text:your projects">Your projects</a>
-
-    <a role="menuitem" class="dropdown-item" href="/glandsly?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">Your stars</a>
-      <a role="menuitem" class="dropdown-item" href="https://gist.github.com/mine" data-ga-click="Header, your gists, text:your gists">Your gists</a>
-
-
-
-
-
-    <div role="none" class="dropdown-divider"></div>
-      
-<div id="feature-enrollment-toggle" class="hide-sm hide-md feature-preview-details position-relative">
-  <button
-    type="button"
-    class="dropdown-item btn-link"
-    role="menuitem"
-    data-feature-preview-trigger-url="/users/glandsly/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/blob/master/homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data/Study_results.csv&quot;,&quot;user_id&quot;:2307210}}"
-    data-feature-preview-close-hmac="dc82fa184f9ce52840bead8e18f13d40cd977da52da85e532fbf35b600eb65dc"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/blob/master/homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data/Study_results.csv&quot;,&quot;user_id&quot;:2307210}}"
-    data-hydro-click-hmac="7ee49eed31dd4610100815ba78e3d0544145b930c2a1b1c5033bdaec63564dac"
-  >
-    Feature preview
-  </button>
-    <span class="feature-preview-indicator js-feature-preview-indicator" hidden></span>
-</div>
-
-    <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
-    <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="7R2GNL/EHogLuDZt7zE+VgPZZW/eEBr1OWgwqIVnXY0thD6XYgB7+cze92+bNWx4XuJMKAFO/NeN+Yqi7cXyBA==" />
-      
-      <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
-        Sign out
-      </button>
-      <input type="text" name="required_field_1a99" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1583590045935" class="form-control" /><input type="hidden" name="timestamp_secret" value="6a36c1b00a9ab40ecce64b1d3b4145c61a60c3868360fc5c16a9539ce5d4e5bb" class="form-control" />
-</form>  </details-menu>
-</details>
-
-    </div>
-
-  </header>
-
-      
-
-  </div>
-
-  <div id="start-of-content" class="show-on-focus"></div>
-
-
-    <div id="js-flash-container">
-
-</div>
-
-
-      
-
-  <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
-
-
-
-
-  <div class="application-main " data-commit-hovercards-enabled>
-        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
-    <main  >
-      
-
-  
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  <div class="pagehead repohead hx_repohead readability-menu bg-gray-light pb-0 pt-0 pt-lg-3">
-
-    <div class="container-lg mb-4 p-responsive d-none d-lg-flex">
-
-      <div class="flex-auto min-width-0 width-fit mr-3">
-        <h1 class="private  d-flex flex-wrap flex-items-center break-word float-none ">
-    <svg class="octicon octicon-lock" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 13H3v-1h1v1zm8-6v7c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h1V4c0-2.2 1.8-4 4-4s4 1.8 4 4v2h1c.55 0 1 .45 1 1zM3.8 6h4.41V4c0-1.22-.98-2.2-2.2-2.2-1.22 0-2.2.98-2.2 2.2v2H3.8zM11 7H2v7h9V7zM4 8H3v1h1V8zm0 2H3v1h1v-1z"/></svg>
-  <span class="author ml-1 flex-self-stretch" itemprop="author">
-    <a class="url fn" rel="author" data-hovercard-type="organization" data-hovercard-url="/orgs/the-Coding-Boot-Camp-at-UT/hovercard" href="/the-Coding-Boot-Camp-at-UT">the-Coding-Boot-Camp-at-UT</a>
-  </span>
-  <span class="path-divider flex-self-stretch">/</span>
-  <strong itemprop="name" class="mr-2 flex-self-stretch">
-    <a data-pjax="#js-repo-pjax-container" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C">UT-MCC-DATA-PT-01-2020-U-C</a>
-  </strong>
-  <span class="Label Label--outline v-align-middle ">Private</span>
-</h1>
-
-
-      </div>
-
-      <ul class="pagehead-actions flex-shrink-0"  >
-
-
-
-
-  <li>
-    
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="TDdYSw79pN+47BYeAoFa9EG0O1NPfxPDW7FtUqLezWmzGo3DhwYRZqufB0yHLlbYhErG98KXTgWoxOyxUWsemw==" />      <input type="hidden" name="repository_id" value="229166380">
-
-      <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:229166380,&quot;originating_url&quot;:&quot;https://github.com/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/blob/master/homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data/Study_results.csv&quot;,&quot;user_id&quot;:2307210}}" data-hydro-click-hmac="6f39ca0c358f69b7be4a81b0621980e209beb829c01eac6f6fc29f7f4055e351" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
-              <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
-              Watch
-          </span>
-</summary>        <details-menu
-          class="select-menu-modal position-absolute mt-5"
-          style="z-index: 99;">
-          <div class="select-menu-header">
-            <span class="select-menu-title">Notifications</span>
-          </div>
-          <div class="select-menu-list">
-            <button type="submit" name="do" value="included" class="select-menu-item width-full" aria-checked="true" role="menuitemradio">
-              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-              <div class="select-menu-item-text">
-                <span class="select-menu-item-heading">Not watching</span>
-                <span class="description">Be notified only when participating or @mentioned.</span>
-                <span class="hidden-select-button-text" data-menu-button-contents>
-                  <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
-                  Watch
-                </span>
-              </div>
-            </button>
-
-            <button type="submit" name="do" value="release_only" class="select-menu-item width-full" aria-checked="false" role="menuitemradio">
-              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-              <div class="select-menu-item-text">
-                <span class="select-menu-item-heading">Releases only</span>
-                <span class="description">Be notified of new releases, and when participating or @mentioned.</span>
-                <span class="hidden-select-button-text" data-menu-button-contents>
-                  <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
-                  Unwatch releases
-                </span>
-              </div>
-            </button>
-
-            <button type="submit" name="do" value="subscribed" class="select-menu-item width-full" aria-checked="false" role="menuitemradio">
-              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-              <div class="select-menu-item-text">
-                <span class="select-menu-item-heading">Watching</span>
-                <span class="description">Be notified of all conversations.</span>
-                <span class="hidden-select-button-text" data-menu-button-contents>
-                  <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
-                  Unwatch
-                </span>
-              </div>
-            </button>
-
-            <button type="submit" name="do" value="ignore" class="select-menu-item width-full" aria-checked="false" role="menuitemradio">
-              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-              <div class="select-menu-item-text">
-                <span class="select-menu-item-heading">Ignoring</span>
-                <span class="description">Never be notified.</span>
-                <span class="hidden-select-button-text" data-menu-button-contents>
-                  <svg class="octicon octicon-mute v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 2.81v10.38c0 .67-.81 1-1.28.53L3 10H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h2l3.72-3.72C7.19 1.81 8 2.14 8 2.81zm7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06L11.44 8 9.47 9.97l1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06L13.56 8l1.97-1.97z"/></svg>
-                  Stop ignoring
-                </span>
-              </div>
-            </button>
-          </div>
-        </details-menu>
-      </details>
-        <a class="social-count js-social-count"
-          href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/watchers"
-          aria-label="28 users are watching this repository">
-          28
-        </a>
-</form>
-  </li>
-
-  <li>
-      <div class="js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="7Z8hMe3+yyNd+wGiHScWwhskK2PpffEUTDC/Kg0O9QXhatV9JtPS8Gu4QdDZzoVKoFoUomZKKOnD6SyZ4LsVXQ==" />
-      <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:229166380,&quot;originating_url&quot;:&quot;https://github.com/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/blob/master/homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data/Study_results.csv&quot;,&quot;user_id&quot;:2307210}}" data-hydro-click-hmac="64c883ef59e80dc8aeeb5ccd088b8b4cd892d5dc97b25690cc98cded9f89862e" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-
-        Unstar
-</button>        <a class="social-count js-social-count" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/stargazers"
-           aria-label="7 users starred this repository">
-           7
-        </a>
-</form>
-    <form class="unstarred js-social-form" action="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="QWu4p7yDjcw6ASDOOqYYuhKZ4BKsCaypt2lAtF+LHWRUAiFex4/yj07frPu+JJ1SjUtBvHlx9OaF0Dxh/K3iOQ==" />
-      <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:229166380,&quot;originating_url&quot;:&quot;https://github.com/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/blob/master/homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data/Study_results.csv&quot;,&quot;user_id&quot;:2307210}}" data-hydro-click-hmac="48dc9b4343a26f5e7f117858bad8ef119d1ae27223f10bb5c5b41f5a83171357" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-
-        Star
-</button>        <a class="social-count js-social-count" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/stargazers"
-           aria-label="7 users starred this repository">
-          7
-        </a>
-</form>  </div>
-
-  </li>
-
-  <li>
-          <details class="details-reset details-overlay details-overlay-dark d-inline-block float-left">
-            <summary class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:229166380,&quot;originating_url&quot;:&quot;https://github.com/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/blob/master/homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data/Study_results.csv&quot;,&quot;user_id&quot;:2307210}}" data-hydro-click-hmac="3bccba2cd3ad68a21343e955e3817d45d4bfba2df3ae764895e2eb9e7f25cdeb" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" title="Fork your own copy of the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
-              Fork
-</summary>            <details-dialog
-              class="anim-fade-in fast Box Box--overlay d-flex flex-column"
-              src="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/fork?fragment=1"
-              preload>
-              <div class="Box-header">
-                <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
-                  <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-                </button>
-                <h3 class="Box-title">Fork UT-MCC-DATA-PT-01-2020-U-C</h3>
-              </div>
-              <div class="overflow-auto text-center">
-                <include-fragment>
-                  <div class="octocat-spinner my-3" aria-label="Loading..."></div>
-                  <p class="f5 text-gray">If this dialog fails to load, you can visit <a href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/fork">the fork page</a> directly.</p>
-                </include-fragment>
-              </div>
-            </details-dialog>
-          </details>
-
-    <a href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/network/members" class="social-count"
-       aria-label="13 users forked this repository">
-      13
-    </a>
-  </li>
-</ul>
-
-    </div>
-      
-<nav class="hx_reponav reponav js-repo-nav js-sidenav-container-pjax clearfix container-lg p-responsive d-none d-lg-block"
-     itemscope
-     itemtype="http://schema.org/BreadcrumbList"
-    aria-label="Repository"
-     data-pjax="#js-repo-pjax-container">
-
-  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C">
-      <div class="d-inline"><svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg></div>
-      <span itemprop="name">Code</span>
-      <meta itemprop="position" content="1">
-</a>  </span>
-
-    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/issues" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/issues">
-        <div class="d-inline"><svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></div>
-        <span itemprop="name">Issues</span>
-        <span class="Counter">0</span>
-        <meta itemprop="position" content="2">
-</a>    </span>
-
-  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a data-hotkey="g p" data-skip-pjax="true" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/pulls" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/pulls">
-      <div class="d-inline"><svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0010 15a1.993 1.993 0 001-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 00-1 3.72v6.56A1.993 1.993 0 002 15a1.993 1.993 0 001-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg></div>
-      <span itemprop="name">Pull requests</span>
-      <span class="Counter">0</span>
-      <meta itemprop="position" content="4">
-</a>  </span>
-
-
-    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement" class="position-relative float-left">
-      <a data-hotkey="g w" data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="repo_actions /the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/actions" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/actions">
-        <div class="d-inline"><svg class="octicon octicon-play" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 8A7 7 0 110 8a7 7 0 0114 0zm-8.223 3.482l4.599-3.066a.5.5 0 000-.832L5.777 4.518A.5.5 0 005 4.934v6.132a.5.5 0 00.777.416z"/></svg></div>
-        Actions
-</a>
-    </span>
-
-    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/projects" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/projects">
-      <div class="d-inline"><svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg></div>
-      Projects
-      <span class="Counter">0</span>
-</a>
-    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/wiki" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/wiki">
-      <div class="d-inline"><svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg></div>
-      Wiki
-</a>
-    <a data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy token_scanning code_scanning /the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/security/advisories" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/security/advisories">
-      <div class="d-inline"><svg class="octicon octicon-shield" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 2l7-2 7 2v6.02C14 12.69 8.69 16 7 16c-1.69 0-7-3.31-7-7.98V2zm1 .75L7 1l6 1.75v5.268C13 12.104 8.449 15 7 15c-1.449 0-6-2.896-6-6.982V2.75zm1 .75L7 2v12c-1.207 0-5-2.482-5-5.985V3.5z"/></svg></div>
-      Security
-</a>
-    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse people /the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/pulse" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/pulse">
-      <div class="d-inline"><svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg></div>
-      Insights
-</a>
-
-</nav>
-
-  <div class="reponav-wrapper reponav-small d-lg-none">
-  <nav class="reponav js-reponav text-center no-wrap"
-       itemscope
-       itemtype="http://schema.org/BreadcrumbList">
-
-    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a class="js-selected-navigation-item selected reponav-item" itemprop="url" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C">
-        <span itemprop="name">Code</span>
-        <meta itemprop="position" content="1">
-</a>    </span>
-
-      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/issues" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/issues">
-          <span itemprop="name">Issues</span>
-          <span class="Counter">0</span>
-          <meta itemprop="position" content="2">
-</a>      </span>
-
-    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/pulls" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/pulls">
-        <span itemprop="name">Pull requests</span>
-        <span class="Counter">0</span>
-        <meta itemprop="position" content="4">
-</a>    </span>
-
-
-      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/projects" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/projects">
-          <span itemprop="name">Projects</span>
-          <span class="Counter">0</span>
-          <meta itemprop="position" content="5">
-</a>      </span>
-
-      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_actions /the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/actions" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/actions">
-          <span itemprop="name">Actions</span>
-          <meta itemprop="position" content="6">
-</a>      </span>
-
-      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_wiki /the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/wiki" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/wiki">
-          <span itemprop="name">Wiki</span>
-          <meta itemprop="position" content="7">
-</a>      </span>
-
-      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy token_scanning code_scanning /the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/security/advisories" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/security/advisories">
-        <span itemprop="name">Security</span>
-        <meta itemprop="position" content="8">
-</a>
-      <a class="js-selected-navigation-item reponav-item" data-selected-links="pulse /the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/pulse" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/pulse">
-        Pulse
-</a>
-
-  </nav>
-</div>
-
-
-  </div>
-
-  
-
-  <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
-
-
-<div class="container-lg clearfix new-discussion-timeline  p-responsive">
-  <div class="repository-content ">
-
-    
-    
-
-
-  
-
-
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/blob/6853ed8b451ba76c7db133d65ae44df52b811101/homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data/Study_results.csv">Permalink</a>
-
-    <!-- blob contrib key: blob_contributors:v22:c9032db22cd7e325c3f5b18542edafe8 -->
-    
-
-    <div class="d-flex flex-items-start flex-shrink-0 flex-column flex-md-row pb-3">
-      <span class="d-flex flex-justify-between width-full width-md-auto">
-        
-<details class="details-reset details-overlay branch-select-menu " id="branch-select-menu">
-  <summary class="btn btn-sm css-truncate"
-           data-hotkey="w"
-           title="Switch branches or tags">
-    <i>Branch:</i>
-    <span class="css-truncate-target" data-menu-button>master</span>
-    <span class="dropdown-caret"></span>
-  </summary>
-
-  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/refs/master/homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data/Study_results.csv?source_action=show&amp;source_controller=blob" preload>
-    <div class="SelectMenu-modal">
-      <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
-        <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
-      </include-fragment>
-    </div>
-  </details-menu>
-</details>
-
-        <div class="BtnGroup flex-shrink-0 d-md-none">
-          <a href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/find/master"
-                class="js-pjax-capture-input btn btn-sm BtnGroup-item"
-                data-pjax
-                data-hotkey="t">
-            Find file
-          </a>
-          <clipboard-copy value="homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data/Study_results.csv" class="btn btn-sm BtnGroup-item">
-            Copy path
-          </clipboard-copy>
-        </div>
-      </span>
-      <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C"><span>UT-MCC-DATA-PT-01-2020-U-C</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/tree/master/homework-instructions"><span>homework-instructions</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/tree/master/homework-instructions/05-Matplotlib"><span>05-Matplotlib</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/tree/master/homework-instructions/05-Matplotlib/Instructions"><span>Instructions</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/tree/master/homework-instructions/05-Matplotlib/Instructions/Pymaceuticals"><span>Pymaceuticals</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/tree/master/homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data"><span>data</span></a></span><span class="separator">/</span><strong class="final-path">Study_results.csv</strong>
-      </h2>
-
-      <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
-        <a href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/find/master"
-              class="js-pjax-capture-input btn btn-sm BtnGroup-item"
-              data-pjax
-              data-hotkey="t">
-          Find file
-        </a>
-        <clipboard-copy value="homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data/Study_results.csv" class="btn btn-sm BtnGroup-item">
-          Copy path
-        </clipboard-copy>
-      </div>
-    </div>
-
-    
-
-
-
-    
-  <div class="Box Box--condensed d-flex flex-column flex-shrink-0">
-      <div class="Box-body d-flex flex-justify-between bg-blue-light flex-column flex-md-row flex-items-start flex-md-items-center">
-        <span class="pr-md-4 f6">
-          <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/ddrossi93/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/ddrossi93"><img class="avatar" src="https://avatars0.githubusercontent.com/u/11780807?s=40&amp;v=4" width="20" height="20" alt="@ddrossi93" /></a>
-          <a class="text-bold link-gray-dark lh-default v-align-middle" rel="contributor" data-hovercard-type="user" data-hovercard-url="/users/ddrossi93/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/ddrossi93">ddrossi93</a>
-            <span class="lh-default v-align-middle">
-              <a data-pjax="true" title="added matplotlib hw" class="link-gray" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/commit/845e070ef44d5d03cc00e9c0c759ebf580c8eb0f">added matplotlib hw</a>
-            </span>
-        </span>
-        <span class="d-inline-block flex-shrink-0 v-align-bottom f6 mt-2 mt-md-0">
-          <a class="pr-2 text-mono link-gray" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/commit/845e070ef44d5d03cc00e9c0c759ebf580c8eb0f" data-pjax>845e070</a>
-          <relative-time datetime="2020-03-03T04:10:22Z" class="no-wrap">Mar 2, 2020</relative-time>
-        </span>
-      </div>
-
-    <div class="Box-body d-flex flex-items-center flex-auto f6 border-bottom-0 flex-wrap" >
-      <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-2" id="blob_contributors_box">
-        <summary class="btn-link">
-          <span><strong>2</strong> contributors</span>
-        </summary>
-        <details-dialog
-          class="Box Box--overlay d-flex flex-column anim-fade-in fast"
-          aria-label="Users who have contributed to this file"
-          src="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/contributors-list/master/homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data/Study_results.csv" preload>
-          <div class="Box-header">
-            <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
-              <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-            </button>
-            <h3 class="Box-title">
-              Users who have contributed to this file
-            </h3>
-          </div>
-          <include-fragment class="octocat-spinner my-3" aria-label="Loading..."></include-fragment>
-        </details-dialog>
-      </details>
-        <span class="">
-    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/ddrossi93/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/commits/master/homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data/Study_results.csv?author=ddrossi93">
-      <img class="avatar mr-1" src="https://avatars0.githubusercontent.com/u/11780807?s=40&amp;v=4" width="20" height="20" alt="@ddrossi93" /> 
-</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/geofflangenderfer/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/commits/master/homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data/Study_results.csv?author=geofflangenderfer">
-      <img class="avatar mr-1" src="https://avatars1.githubusercontent.com/u/7274321?s=40&amp;v=4" width="20" height="20" alt="@geofflangenderfer" /> 
-</a>
-</span>
-
-    </div>
-  </div>
-
-
-
-
-
-
-    <div class="Box mt-3 position-relative">
-      
-<div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
-  <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-
-    39.7 KB
-      <span class="file-info-divider"></span>
-      <a class="no-underline" href="https://help.github.com/articles/versioning-large-files/">
-        <svg aria-label="Learn more about Git LFS" class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
-      </a>
-      Stored with Git LFS
-  </div>
-
-  <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
-
-    <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/raw/master/homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data/Study_results.csv">Download</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/commits/master/homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data/Study_results.csv">History</a>
-    </div>
-
-
-    <div>
-          <a class="btn-octicon tooltipped tooltipped-nw js-remove-unless-platform"
-             data-platforms="windows,mac"
-             href="https://desktop.github.com"
-             aria-label="Open this file in GitHub Desktop"
-             data-ga-click="Repository, open with desktop">
-              <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
-          </a>
-
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/delete/master/homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data/Study_results.csv" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="aRlqESHdzF8tFFf9csLcANfXRtPStOLoLO7CE16HFS0+TbqEgp5wTvjH8xqutJ6xcAXa4FmwqvDMs3SOcO+xhg==" />
-            <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
-              aria-label="Fork this project and delete the file" data-disable-with>
-              <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
-            </button>
-</form>    </div>
-  </div>
-</div>
-
-
-
-
-      
-
-  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-csv ">
-      <div class="text-center p-3">
-          <a href="/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/blob/master/homework-instructions/05-Matplotlib/Instructions/Pymaceuticals/data/Study_results.csv?raw=true">View raw</a>
-      </div>
-  </div>
-
-    </div>
-
-  
-
-  <details class="details-reset details-overlay details-overlay-dark">
-    <summary data-hotkey="l" aria-label="Jump to line"></summary>
-    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast linejump" aria-label="Jump to line">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form Box-body d-flex" action="" accept-charset="UTF-8" method="get">
-        <input class="form-control flex-auto mr-3 linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
-        <button type="submit" class="btn" data-close-dialog>Go</button>
-</form>    </details-dialog>
-  </details>
-
-
-
-  </div>
-</div>
-
-    </main>
-  </div>
-  
-
-  </div>
-
-        
-<div class="footer container-lg width-full p-responsive" role="contentinfo">
-  <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
-    <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-      <li class="mr-3 mr-lg-0">&copy; 2020 GitHub, Inc.</li>
-        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
-        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
-        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
-        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
-    </ul>
-
-    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mx-lg-4" href="https://github.com">
-      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-</a>
-   <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
-      <li class="mr-3 mr-lg-0"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
-      <li class="mr-3 mr-lg-0"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
-        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
-
-    </ul>
-  </div>
-  <div class="d-flex flex-justify-center pb-6">
-    <span class="f6 text-gray-light"></span>
-  </div>
-</div>
-
-
-
-  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
-    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
-    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
-      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-    </button>
-    You can’t perform that action at this time.
-  </div>
-
-
-    <script crossorigin="anonymous" async="async" integrity="sha512-o4vS4IKrjdy/HD+xr2+VhO6DxQmj5jikhHbEGrd8+JGhpmIOxRrpT1Qo5k3IhKimm8VXIu3pyYejLtOAkm+OsQ==" type="application/javascript" id="js-conditional-compat" data-src="https://github.githubassets.com/assets/compat-bootstrap-a38bd2e0.js"></script>
-    <script crossorigin="anonymous" async="async" integrity="sha512-3yNijdFdVDBZQDWrBvMeD2J9gyXwI5MKUMJSWdEGP44DgS4NEPQw2TmVlDdNAWrseJO5C/sXBSTrL24DvGMDJw==" type="application/javascript" src="https://github.githubassets.com/assets/vendor-df23628d.js"></script>
-    <script crossorigin="anonymous" integrity="sha512-ErVR7Hs5zp1WKKgkbfEWJjRoheL3F6ehWfHkn619JSMi+H6yLFyDOwE9HjduoQ0UA5joyVRN58NQjql/GtMa4g==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-12b551ec.js"></script>
-    
-    <script crossorigin="anonymous" async="async" integrity="sha512-1xorBK+F+SFsIgtT8Y+s4bhy4nWRfOASzvKOspAeM8z9Xr613S0HbYOnDmxrDi1JG9I27lonJnMG+JrRTbY2YQ==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-d71a2b04.js"></script>
-    
-    
-    
-  <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
-    >
-    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
-    <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
-    <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
-  </div>
-  <template id="site-details-dialog">
-  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark hx_rsm" open>
-    <summary role="button" aria-label="Close dialog"></summary>
-    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
-      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
-        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-      </button>
-      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
-    </details-dialog>
-  </details>
-</template>
-
-  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
-  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
-  </div>
-</div>
-
-  <div aria-live="polite" class="js-global-screen-reader-notice sr-only"></div>
-
-  </body>
-</html>
-
+Mouse ID,Timepoint,Tumor Volume (mm3),Metastatic Sites
+b128,0,45,0
+f932,0,45,0
+g107,0,45,0
+a457,0,45,0
+c819,0,45,0
+h246,0,45,0
+p189,0,45,0
+n923,0,45,0
+q119,0,45,0
+f993,0,45,0
+z234,0,45,0
+b559,0,45,0
+y260,0,45,0
+x930,0,45,0
+o725,0,45,0
+z969,0,45,0
+v835,0,45,0
+r604,0,45,0
+n304,0,45,0
+l700,0,45,0
+x336,0,45,0
+l725,0,45,0
+m133,0,45,0
+v295,0,45,0
+a818,0,45,0
+y601,0,45,0
+t724,0,45,0
+k382,0,45,0
+w422,0,45,0
+c326,0,45,0
+c139,0,45,0
+v339,0,45,0
+a577,0,45,0
+y163,0,45,0
+k483,0,45,0
+k804,0,45,0
+o809,0,45,0
+z581,0,45,0
+a251,0,45,0
+i386,0,45,0
+c580,0,45,0
+q132,0,45,0
+u327,0,45,0
+v603,0,45,0
+f278,0,45,0
+g497,0,45,0
+d474,0,45,0
+o973,0,45,0
+c832,0,45,0
+o331,0,45,0
+m650,0,45,0
+v289,0,45,0
+m550,0,45,0
+h428,0,45,0
+r701,0,45,0
+v199,0,45,0
+x264,0,45,0
+f234,0,45,0
+c458,0,45,0
+q610,0,45,0
+j913,0,45,0
+a411,0,45,0
+a444,0,45,0
+d251,0,45,0
+j989,0,45,0
+y449,0,45,0
+k403,0,45,0
+c758,0,45,0
+x402,0,45,0
+r811,0,45,0
+a644,0,45,0
+i177,0,45,0
+g791,0,45,0
+a520,0,45,0
+u196,0,45,0
+m546,0,45,0
+w678,0,45,0
+n364,0,45,0
+s508,0,45,0
+e662,0,45,0
+z578,0,45,0
+r921,0,45,0
+a492,0,45,0
+w540,0,45,0
+v764,0,45,0
+z795,0,45,0
+e291,0,45,0
+e584,0,45,0
+e213,0,45,0
+j755,0,45,0
+s565,0,45,0
+a366,0,45,0
+p387,0,45,0
+b879,0,45,0
+i901,0,45,0
+k862,0,45,0
+g867,0,45,0
+s619,0,45,0
+w697,0,45,0
+j984,0,45,0
+c402,0,45,0
+h333,0,45,0
+k510,0,45,0
+p981,0,45,0
+t451,0,45,0
+a963,0,45,0
+m269,0,45,0
+g989,0,45,0
+z314,0,45,0
+o848,0,45,0
+v719,0,45,0
+q597,0,45,0
+c895,0,45,0
+a203,0,45,0
+f394,0,45,0
+c264,0,45,0
+n967,0,45,0
+f545,0,45,0
+k894,0,45,0
+k754,0,45,0
+g296,0,45,0
+d164,0,45,0
+w575,0,45,0
+x613,0,45,0
+q633,0,45,0
+b313,0,45,0
+f129,0,45,0
+j365,0,45,0
+p136,0,45,0
+c559,0,45,0
+a788,0,45,0
+s337,0,45,0
+q511,0,45,0
+m331,0,45,0
+o926,0,45,0
+d133,0,45,0
+n630,0,45,0
+g989,0,45,0
+a401,0,45,0
+w350,0,45,0
+c302,0,45,0
+a897,0,45,0
+j235,0,45,0
+q787,0,45,0
+a262,0,45,0
+r850,0,45,0
+i669,0,45,0
+n763,0,45,0
+s152,0,45,0
+c766,0,45,0
+e227,0,45,0
+c282,0,45,0
+v989,0,45,0
+w140,0,45,0
+v409,0,45,0
+l872,0,45,0
+o795,0,45,0
+y478,0,45,0
+q582,0,45,0
+s166,0,45,0
+x773,0,45,0
+w167,0,45,0
+t718,0,45,0
+o302,0,45,0
+i477,0,45,0
+c757,0,45,0
+t994,0,45,0
+p310,0,45,0
+a699,0,45,0
+k603,0,45,0
+x822,0,45,0
+l558,0,45,0
+l733,0,45,0
+f436,0,45,0
+l490,0,45,0
+b759,0,45,0
+l471,0,45,0
+y865,0,45,0
+y769,0,45,0
+l661,0,45,0
+j296,0,45,0
+u149,0,45,0
+u153,0,45,0
+w151,0,45,0
+h531,0,45,0
+a685,0,45,0
+o813,0,45,0
+m756,0,45,0
+n671,0,45,0
+s121,0,45,0
+v766,0,45,0
+w193,0,45,0
+e476,0,45,0
+w584,0,45,0
+b447,0,45,0
+k210,0,45,0
+a275,0,45,0
+x581,0,45,0
+n482,0,45,0
+t198,0,45,0
+l215,0,45,0
+s141,0,45,0
+o523,0,45,0
+i635,0,45,0
+w746,0,45,0
+r107,0,45,0
+s187,0,45,0
+g570,0,45,0
+x209,0,45,0
+x111,0,45,0
+z435,0,45,0
+n678,0,45,0
+g558,0,45,0
+u946,0,45,0
+o562,0,45,0
+v991,0,45,0
+c927,0,45,0
+x226,0,45,0
+p438,0,45,0
+b487,0,45,0
+o287,0,45,0
+q483,0,45,0
+t573,0,45,0
+f345,0,45,0
+i334,0,45,0
+l264,0,45,0
+j246,0,45,0
+r554,0,45,0
+s185,0,45,0
+b742,0,45,0
+x401,0,45,0
+l509,0,45,0
+s710,0,45,0
+r157,0,45,0
+u364,0,45,0
+j119,0,45,0
+v923,0,45,0
+w914,0,45,0
+i738,0,45,0
+r944,0,45,0
+y793,0,45,0
+g316,0,45,0
+g288,0,45,0
+l897,0,45,0
+w150,0,45,0
+t565,0,45,0
+i557,0,45,0
+m957,0,45,0
+f966,0,45,0
+m601,0,45,0
+a275,5,46.79525728,0
+w575,5,48.91385977,1
+x822,5,45.67110442,1
+l509,5,45.85119285,0
+n304,5,46.43121629,0
+d164,5,46.61767061,0
+l897,5,45.46224327,0
+l558,5,45.80908882,0
+g296,5,46.59323337,0
+c458,5,45.72227949,0
+a401,5,46.11198591,0
+l700,5,45.91837165,0
+f234,5,47.31349062,0
+x613,5,46.09704058,0
+u149,5,45.79206792,0
+k210,5,47.91899771,0
+x402,5,46.32757027,1
+q610,5,45.62949421,0
+x581,5,47.1969266,0
+a492,5,46.40914339,0
+m133,5,46.62130127,0
+l725,5,48.73631881,1
+q633,5,47.18380215,0
+f129,5,47.00059399,0
+q483,5,46.77681624,1
+a444,5,44.00597487,0
+v835,5,47.15601071,0
+r604,5,47.06774448,1
+f394,5,47.03309963,0
+y865,5,46.73500592,1
+d251,5,41.74635495,1
+b313,5,47.15443254,0
+y769,5,46.42265176,1
+z234,5,46.12935706,1
+b559,5,47.40989731,0
+f993,5,46.39575966,0
+q119,5,47.86444,0
+j989,5,45.62071835,1
+w150,5,39.20212894,0
+n923,5,45.82488099,0
+y449,5,45.87754494,0
+l661,5,46.26879904,0
+c302,5,47.69067986,1
+c264,5,45.79170389,0
+l471,5,46.25187204,0
+x930,5,46.07823375,0
+k754,5,45.7277604,0
+f436,5,46.37079759,1
+v295,5,46.11181797,1
+j913,5,44.01490022,0
+s710,5,43.1809774,0
+z969,5,49.33299873,0
+k894,5,47.64568674,0
+l490,5,45.61253918,1
+b759,5,48.00919049,0
+a411,5,45.46667714,0
+f545,5,46.56581263,0
+o725,5,46.88982098,0
+y601,5,48.47500273,1
+w914,5,45.89372032,0
+n967,5,46.07719173,1
+l733,5,46.17422627,0
+m601,5,41.40859145,1
+b487,5,46.21397739,0
+o287,5,45.58680362,0
+p310,5,46.55853236,1
+r107,5,48.51342027,0
+s565,5,48.24255218,0
+w350,5,48.23211311,0
+s187,5,47.57671761,1
+j984,5,48.41072109,1
+w697,5,48.30182261,1
+j755,5,47.24284357,0
+g570,5,47.65642436,1
+u364,5,45.76088647,1
+x209,5,46.75426887,0
+c402,5,49.3426301,1
+b742,5,41.53409702,0
+n630,5,46.09909969,0
+g989,5,48.78680146,0
+e213,5,45.69925018,1
+a366,5,48.95136773,0
+w746,5,49.45327005,0
+s141,5,45.83113434,0
+i901,5,46.49302392,0
+t198,5,47.46126052,0
+b879,5,49.15615628,1
+k603,5,46.04211582,0
+o523,5,45.54470008,0
+v923,5,45.70443431,0
+f966,5,38.79647373,0
+p387,5,48.66763075,0
+g867,5,46.88074916,0
+i635,5,47.23593715,0
+s619,5,46.60226878,0
+a699,5,46.55308986,0
+q132,5,46.7163985,1
+k862,5,49.20305786,0
+h333,5,45.75172728,0
+x401,5,45.47375302,0
+o926,5,46.76116373,0
+c927,5,46.35184205,0
+c559,5,46.56263793,0
+r701,5,46.88697137,0
+j119,5,45.83899787,0
+p438,5,46.82793418,0
+m269,5,49.0111801,0
+a963,5,46.23350581,0
+p136,5,49.27397096,0
+t724,5,46.35925829,0
+g989,5,47.57039208,0
+z314,5,45.93471217,0
+a818,5,45.69670864,0
+v764,5,47.05418474,0
+j365,5,46.7112611,0
+i557,5,42.2616653,0
+x264,5,47.0384145,0
+v991,5,49.21432799,1
+a788,5,47.00658024,0
+x111,5,46.94101498,1
+k510,5,46.6084671,0
+z435,5,47.11597963,0
+e584,5,45.6569785,0
+m331,5,45.52301371,1
+n678,5,47.55428429,0
+p981,5,47.00062717,0
+g558,5,46.18874193,0
+e291,5,46.14250486,0
+q511,5,45.83265378,0
+u946,5,45.9918078,1
+z795,5,46.83347493,0
+t451,5,48.04713882,0
+s337,5,46.84985157,0
+o562,5,46.51495016,1
+w540,5,45.88537038,1
+w140,5,47.71795156,0
+l215,5,49.48194935,1
+y793,5,41.01991315,0
+n763,5,46.08598142,0
+a203,5,48.5084684,0
+w584,5,46.05193075,0
+y163,5,48.28497016,0
+o973,5,46.71787727,0
+o795,5,46.76092721,1
+w422,5,48.45745927,0
+e662,5,45.81628252,0
+g791,5,45.85153062,0
+c580,5,46.6284548,0
+e476,5,47.11180113,0
+k483,5,46.61105571,0
+y478,5,48.64107818,1
+i669,5,46.76466824,1
+d474,5,45.91835225,0
+w193,5,45.49385802,0
+q582,5,45.95539895,1
+s166,5,47.18678778,0
+o331,5,47.05966408,1
+k382,5,46.27499735,1
+k804,5,48.26620364,0
+r850,5,46.86291194,0
+g316,5,44.02275246,0
+v766,5,48.15125091,1
+g497,5,48.78206878,0
+a520,5,38.72370695,0
+x773,5,45.8508307,1
+m550,5,49.05409736,1
+t994,5,47.8914871,0
+n364,5,45.52187471,0
+l264,5,46.66876646,0
+e227,5,47.23801112,0
+c326,5,36.3213458,0
+r157,5,45.59706359,0
+c766,5,47.31305537,0
+v719,5,47.18836325,0
+w678,5,43.16637266,0
+c139,5,48.75311208,0
+m546,5,42.99887638,0
+v339,5,46.25011212,0
+s152,5,47.4590529,1
+m650,5,48.56249492,1
+c282,5,45.72568973,0
+v989,5,48.85813451,0
+r944,5,45.73714484,0
+r554,5,45.78174579,1
+c895,5,45.47754399,0
+v409,5,46.22079642,0
+u196,5,45.55746444,1
+c832,5,48.68546123,1
+v289,5,46.20446003,0
+a897,5,45.69112405,1
+f345,5,45.5911466,0
+s508,5,38.71187185,0
+a577,5,46.1977199,1
+z578,5,42.18878662,0
+i177,5,44.06539783,0
+a644,5,45.55015754,0
+c757,5,47.78327981,0
+s185,5,43.87849569,0
+i738,5,45.59568527,0
+m756,5,47.01036401,1
+o813,5,45.69933088,0
+j246,5,45.64143788,0
+a685,5,46.87048256,0
+r811,5,45.62580225,0
+h246,5,49.47041702,0
+q597,5,45.76611104,0
+a251,5,46.98212719,0
+q787,5,47.11661587,0
+c758,5,45.5786783,0
+u327,5,45.69418805,0
+t565,5,45.8956472,0
+c819,5,45.76924864,1
+o302,5,48.93701188,0
+h531,5,47.7846818,0
+i477,5,46.65738471,0
+w151,5,45.54607595,1
+y260,5,46.79983867,0
+r921,5,45.56821083,0
+a457,5,47.462891,0
+j296,5,46.79925591,1
+w167,5,48.78627194,0
+a262,5,48.71756819,1
+b128,5,45.65133131,0
+n671,5,47.35388938,0
+g288,5,45.83939976,0
+v603,5,46.01600593,0
+i334,5,41.02051821,0
+k403,5,38.82589807,0
+p189,5,49.04870704,1
+o809,5,46.87724316,0
+g107,5,48.79166496,0
+t718,5,45.92125272,1
+i386,5,46.85369669,1
+s121,5,45.63566174,1
+z581,5,49.27309187,1
+f278,5,48.19457788,0
+j235,5,46.58881978,0
+m957,5,45.62238149,1
+e291,10,48.52974125,1
+u946,10,46.73050592,1
+g558,10,50.09475382,0
+i386,10,49.86154739,2
+e584,10,47.25064148,0
+o523,10,47.0810859,1
+i635,10,48.68575605,1
+b879,10,50.33894583,1
+u327,10,49.23525948,0
+n678,10,49.14570866,1
+r554,10,39.0054935,2
+z435,10,48.71066147,0
+s565,10,52.7775271,0
+g497,10,49.6470865,0
+s187,10,48.14635121,1
+o809,10,48.6707318,0
+z581,10,50.47875016,2
+r107,10,49.18601052,0
+k804,10,49.47124419,0
+a366,10,53.52399007,0
+j755,10,48.16706083,0
+g570,10,49.18823167,1
+d474,10,46.97496297,0
+c832,10,49.81141262,1
+x209,10,48.92989543,0
+u364,10,46.56841719,2
+k483,10,50.29604123,1
+o973,10,48.24579043,0
+y163,10,49.1123991,1
+e213,10,47.3915712,2
+a251,10,48.59117901,1
+p387,10,53.36296294,0
+v923,10,39.84822328,0
+x111,10,49.12296898,1
+a577,10,49.5096389,1
+g288,10,46.30400254,1
+v603,10,47.8305568,0
+c139,10,49.99295391,0
+j296,10,48.52997762,2
+o331,10,50.12845481,1
+b759,10,49.13335499,0
+l490,10,47.25960594,1
+z969,10,52.65608148,1
+n671,10,51.03935653,0
+g107,10,53.43598668,0
+v835,10,48.96591797,0
+s710,10,43.68802627,0
+s121,10,49.04883479,1
+f436,10,48.14697758,2
+r604,10,48.78655957,1
+l733,10,48.35495154,0
+l509,10,46.75907363,0
+y260,10,48.08180678,1
+v766,10,50.36310988,1
+n304,10,47.20125097,0
+a457,10,49.78341894,0
+l558,10,46.78453491,0
+o725,10,48.199452,0
+c819,10,46.65839527,1
+i738,10,43.42101414,0
+n923,10,48.79194986,1
+p189,10,51.58216168,2
+q119,10,51.23660557,0
+l661,10,49.68361956,0
+f993,10,48.18537323,0
+m957,10,46.4145177,1
+h246,10,51.36886216,1
+w151,10,46.50147609,1
+y769,10,48.01516261,1
+y865,10,49.52273955,1
+b559,10,48.03643202,0
+s141,10,47.23569156,0
+l471,10,48.18206306,0
+x930,10,50.26069441,0
+a685,10,47.66475264,0
+w193,10,48.34655046,0
+x822,10,48.98371668,1
+k382,10,50.18096763,1
+v289,10,48.13348207,0
+b487,10,47.6643871,0
+c895,10,49.77901542,0
+t724,10,50.70389965,0
+j119,10,46.42536551,0
+p438,10,50.51749789,0
+r701,10,49.65459636,0
+m650,10,50.96899763,1
+i557,10,42.99207658,0
+v719,10,51.49705412,1
+c927,10,50.96529767,1
+x264,10,47.88712765,1
+v991,10,52.6449057,1
+l264,10,50.65958094,0
+o562,10,47.14767002,1
+f345,10,47.22244619,0
+a818,10,49.79091948,0
+o287,10,47.36020084,1
+m550,10,50.54803457,2
+l700,10,47.01356652,1
+g316,10,44.50204246,0
+u149,10,47.40483439,0
+e476,10,49.43168536,0
+k210,10,49.37993231,0
+l725,10,50.82391154,2
+a275,10,47.37134328,0
+z795,10,48.0308039,0
+c580,10,47.57017382,1
+m133,10,47.50333803,0
+w422,10,49.93597024,0
+x581,10,49.06702788,1
+v295,10,47.53946216,2
+a203,10,51.8524372,1
+y793,10,41.63001026,1
+q483,10,47.8391005,1
+w584,10,47.29850794,0
+f966,10,35.6244027,0
+q132,10,47.95384377,2
+m269,10,50.86013006,0
+w167,10,51.82640965,0
+m601,10,36.82536664,1
+a492,10,48.43219661,0
+x773,10,47.18920597,2
+a401,10,47.7259374,1
+i177,10,41.02092924,0
+s166,10,49.00012468,0
+q582,10,47.01357514,1
+w540,10,47.45906658,1
+j365,10,48.34932028,0
+v764,10,48.18900062,1
+g791,10,40.17055848,0
+y478,10,52.28893409,1
+l897,10,46.15473721,0
+o795,10,51.1237037,1
+g989,10,51.74515613,0
+p136,10,50.90789028,0
+t451,10,48.95791906,0
+c282,10,48.17950638,0
+s337,10,47.8944415,0
+m546,10,43.74822357,0
+v989,10,52.61468889,1
+a788,10,50.15972132,1
+a644,10,46.38071258,0
+v409,10,50.64903842,1
+r944,10,46.54429202,0
+a963,10,47.15052201,0
+t994,10,52.6141635,1
+c559,10,47.29326012,0
+a520,10,36.42938781,0
+a444,10,44.51255951,0
+u196,10,46.42294306,1
+e227,10,51.34975705,1
+f129,10,48.17971908,1
+t718,10,46.39268805,1
+n967,10,47.47172327,1
+d251,10,42.43225791,1
+b313,10,48.31937218,1
+f545,10,51.07251225,0
+a411,10,40.75978762,1
+w914,10,43.23196275,0
+c302,10,48.53356704,1
+j989,10,46.34383237,1
+k894,10,49.27287011,1
+y449,10,46.37809248,0
+w150,10,39.95234669,0
+j913,10,44.49716216,0
+a897,10,47.97292708,1
+k754,10,49.74611666,0
+k403,10,35.01427146,1
+c757,10,49.21931669,0
+g296,10,48.26950861,0
+r921,10,42.71192694,0
+q633,10,49.00186559,0
+t565,10,46.74900552,0
+r811,10,39.453903,0
+f234,10,47.90432375,0
+x613,10,46.8181759,0
+x402,10,46.88696249,1
+o302,10,49.70144989,0
+w575,10,50.13595547,1
+c458,10,44.45437828,1
+i477,10,47.52063206,0
+c758,10,46.28799223,0
+d164,10,47.47464468,1
+q610,10,44.99148471,0
+s185,10,37.61494768,0
+q511,10,50.31164687,0
+c264,10,49.02659196,0
+k862,10,50.52355007,1
+n763,10,46.81731526,1
+h333,10,46.23384414,1
+c402,10,50.56689412,1
+q787,10,48.59386234,1
+b128,10,43.2708519,0
+g867,10,48.18340167,0
+g989,10,49.8805278,0
+b742,10,41.99922813,0
+e662,10,46.40908385,0
+i669,10,48.2816334,1
+a699,10,47.86737569,0
+q597,10,42.53798598,0
+j984,10,50.14108401,1
+a262,10,49.59518129,1
+w350,10,48.89955238,0
+n364,10,40.3751382,0
+z578,10,42.95211843,0
+w697,10,48.925056,2
+p310,10,48.66560668,1
+k603,10,46.60694676,0
+k510,10,47.6582498,1
+r850,10,48.51509085,1
+j235,10,48.01878792,1
+i901,10,50.42124982,0
+s152,10,52.1816442,2
+o926,10,47.56567364,1
+m331,10,47.64687735,1
+x401,10,39.11389068,0
+l215,10,53.6539696,1
+j246,10,46.4083613,0
+s508,10,34.8509979,0
+p981,10,47.54584585,0
+i334,10,41.63124731,0
+r157,10,46.05960827,0
+t198,10,49.00080978,1
+c766,10,49.50027098,1
+q597,15,41.39566036,0
+l661,15,50.94754484,1
+y769,15,52.76102114,2
+s185,15,38.17723195,0
+d251,15,39.47278744,1
+y865,15,50.80651856,1
+a685,15,48.95147442,0
+a262,15,53.82797367,2
+b128,15,43.78489343,0
+r811,15,40.02229235,0
+z581,15,51.1963042,2
+c819,15,48.37099912,1
+r850,15,50.21860469,1
+b559,15,51.37886229,0
+c264,15,53.66494165,1
+o302,15,51.38148886,0
+g288,15,42.17230079,1
+h246,15,56.18432701,1
+a251,15,50.53445603,1
+c757,15,51.532603,0
+j989,15,41.12835439,1
+i334,15,39.15800115,0
+f993,15,49.10697473,1
+y449,15,44.18345092,0
+i738,15,37.97877782,0
+i386,15,51.73656088,2
+u327,15,50.65996437,0
+q787,15,49.21773243,2
+n923,15,51.73870623,1
+c758,15,46.94094512,1
+c302,15,52.71663459,2
+q132,15,49.15974862,3
+n671,15,54.21606411,0
+a897,15,52.34308525,2
+k403,15,34.22399174,1
+b313,15,49.18838735,1
+p189,15,53.6755415,2
+m957,15,39.80445341,1
+w151,15,47.24292865,1
+v603,15,52.10294744,0
+j296,15,50.70127959,2
+o331,15,54.78976769,1
+a644,15,46.91089166,0
+o809,15,49.68344504,1
+n763,15,47.79809961,1
+w422,15,52.24630985,0
+o795,15,55.88633793,2
+a203,15,52.7778705,1
+a520,15,35.590254,0
+y163,15,51.52306843,1
+r944,15,47.37342325,0
+m550,15,51.16606544,3
+f345,15,48.35223854,0
+s152,15,57.22498064,2
+t994,15,53.45863887,1
+c895,15,52.94946474,1
+y793,15,42.28366512,1
+u196,15,47.22717065,1
+c832,15,52.86453449,1
+s508,15,35.27690634,0
+m546,15,39.89743533,0
+a577,15,50.91500662,2
+m650,15,53.14955933,1
+v719,15,52.60910758,1
+c766,15,50.59663325,2
+c282,15,49.26607873,0
+j235,15,51.16113815,1
+e227,15,52.83394196,1
+c139,15,51.8332246,0
+n364,15,36.94027399,0
+v289,15,52.60216564,0
+r921,15,43.52726054,0
+y478,15,53.61040585,1
+c580,15,51.991708,1
+t565,15,44.44094861,0
+g497,15,53.64616804,1
+t718,15,48.08512552,1
+g107,15,58.13554485,0
+s121,15,50.82456031,2
+z578,15,38.68851607,0
+j246,15,43.31265415,0
+k804,15,50.47761824,0
+w167,15,53.90048909,0
+d474,15,47.77793584,0
+y260,15,50.19615224,2
+v766,15,51.54243058,1
+w584,15,51.26543971,0
+x773,15,47.67123558,3
+i669,15,48.8576007,1
+i177,15,40.33093479,0
+r157,15,46.53920617,0
+k382,15,54.42916821,1
+k483,15,53.24445813,1
+q582,15,48.32264018,2
+e476,15,54.04621267,0
+g791,15,40.67812852,0
+g316,15,45.21674299,0
+r554,15,35.46375763,2
+o973,15,49.87193582,0
+e662,15,43.55377339,0
+w193,15,49.38557373,0
+s141,15,49.23234538,1
+n967,15,49.82500362,1
+p438,15,52.19836818,0
+g989,15,51.32585207,1
+b487,15,51.68325586,0
+g570,15,52.6826954,1
+j119,15,47.32298428,0
+j755,15,51.45397391,0
+v764,15,49.41262418,2
+a818,15,51.22756565,0
+o287,15,48.67945261,1
+w540,15,48.25014636,2
+w350,15,50.8546323,1
+q483,15,48.4684826,1
+j365,15,49.58826336,0
+j984,15,51.16675687,1
+v295,15,50.66605391,2
+s187,15,52.08163225,1
+a401,15,49.93472542,1
+x581,15,49.74642744,2
+a492,15,51.9852629,0
+e291,15,49.3484262,1
+a275,15,49.73440359,0
+f129,15,49.98830246,1
+s565,15,54.32831664,1
+x402,15,49.1199478,1
+l725,15,54.24456268,2
+b742,15,39.52484301,0
+t724,15,55.58461724,0
+k210,15,51.07355752,0
+p136,15,51.99141616,1
+m269,15,55.9053436,0
+q511,15,52.13308139,0
+u946,15,47.67302921,1
+x401,15,39.77625003,0
+g558,15,51.007258,0
+t451,15,49.65278772,0
+z795,15,49.36813189,1
+o562,15,51.50508551,1
+s337,15,48.57151582,0
+v991,15,54.588591,1
+a788,15,52.53994926,1
+a963,15,47.83685218,0
+x264,15,50.00231403,1
+e584,15,48.43041053,1
+c927,15,53.26643087,1
+p981,15,49.65770973,0
+o926,15,48.25424839,1
+i557,15,43.5298757,0
+c559,15,51.41490358,1
+u364,15,47.21219992,2
+r701,15,52.48480443,0
+l897,15,44.0615214,0
+k510,15,49.6870517,1
+e213,15,51.7916953,2
+h333,15,50.69260358,2
+c402,15,52.23071944,1
+g989,15,53.44201976,0
+m601,15,35.46461175,1
+m133,15,48.6652074,1
+m331,15,52.11008758,1
+w914,15,43.68844893,0
+s710,15,41.84523536,0
+a699,15,49.53040137,0
+g296,15,49.65324404,1
+a411,15,41.48416885,1
+b879,15,51.61838657,1
+p387,15,55.25138033,0
+r604,15,51.07452073,1
+l509,15,47.48859931,1
+f436,15,48.72207785,2
+u149,15,48.52237343,0
+b759,15,51.58779906,0
+g867,15,51.06041924,1
+k603,15,48.7752855,0
+i635,15,49.53689775,1
+k862,15,54.47453362,1
+k754,15,51.32356994,0
+j913,15,45.25253427,0
+v835,15,50.54520646,1
+l490,15,50.52481268,1
+k894,15,49.9877657,1
+l733,15,49.28519504,0
+f966,15,32.62300253,0
+f545,15,53.94554429,1
+o725,15,50.01507902,1
+p310,15,49.77074144,1
+r107,15,53.09033546,0
+q633,15,50.5835573,1
+x930,15,51.97376864,0
+f234,15,48.73519714,1
+l700,15,49.04022529,1
+a444,15,43.00127957,0
+a366,15,55.26558163,0
+x822,15,49.69466533,1
+x613,15,48.0776464,0
+l471,15,49.40687901,0
+z969,15,54.71300452,2
+c458,15,45.10742313,2
+q610,15,45.88902756,0
+w697,15,52.65726519,2
+v923,15,40.45798877,0
+w575,15,50.86745176,1
+t198,15,49.7811808,2
+n304,15,48.47797895,0
+i901,15,51.41964239,0
+u364,20,40.34394812,2
+o926,20,51.82663825,2
+q132,20,51.90902494,4
+a577,20,52.36518457,2
+i386,20,55.08772445,2
+t198,20,51.49073998,3
+g558,20,55.09009691,1
+c766,20,53.00686463,3
+u946,20,49.11004966,1
+p310,20,54.20518054,1
+s152,20,62.35160945,2
+z581,20,51.80794416,2
+f966,20,30.48598484,0
+o809,20,50.33655288,1
+s187,20,53.74473406,1
+b128,20,42.731552,0
+i669,20,50.87369027,1
+b742,20,37.95035546,0
+k804,20,54.48451945,0
+a699,20,50.71242334,0
+i635,20,51.87706189,1
+r107,20,55.2638584,0
+r554,20,36.01558858,2
+w350,20,52.13232061,1
+k603,20,50.18010935,0
+a251,20,54.46259376,1
+k483,20,54.77896052,1
+a262,20,57.01331331,2
+n763,20,49.25812581,1
+q787,20,50.22993419,2
+y163,20,54.57107607,1
+g570,20,54.64329541,1
+g989,20,55.32612202,1
+s141,20,51.6216457,1
+q511,20,52.67271205,0
+s121,20,52.0050659,2
+t718,20,52.6367,2
+k210,20,51.99761855,0
+u149,20,50.37805789,0
+n671,20,54.82252091,0
+o302,20,56.17761143,0
+q633,20,53.28728681,1
+x822,20,51.91490968,2
+a685,20,49.49055902,0
+m957,20,38.90934919,1
+w575,20,55.5918155,1
+l733,20,53.24431157,1
+c757,20,52.81863401,1
+w151,20,49.55426295,2
+g296,20,51.4471183,2
+s185,20,36.86687576,0
+a897,20,54.59570541,3
+c264,20,54.5681957,1
+f545,20,58.84118888,1
+y769,20,55.02572434,2
+l471,20,52.22832698,0
+l661,20,52.61749003,1
+b313,20,53.9796797,1
+a401,20,52.20451136,2
+b759,20,54.44303502,0
+k754,20,52.69342276,1
+c302,20,54.08090836,3
+j296,20,54.00534209,3
+l490,20,51.90544699,1
+l509,20,48.07045162,2
+w914,20,41.10809233,0
+k894,20,50.98163936,1
+e227,20,56.6075521,1
+a275,20,50.51343652,1
+x581,20,51.20796943,3
+o562,20,53.61686347,1
+c139,20,56.74200681,0
+c282,20,51.95057423,0
+v719,20,54.04860769,1
+v991,20,57.74069459,2
+s337,20,49.20205408,1
+c927,20,55.48168922,1
+t994,20,56.52795159,1
+a788,20,54.06098332,1
+c895,20,53.6768396,2
+l897,20,44.81309343,0
+f345,20,49.61338303,0
+c559,20,52.60436695,2
+r944,20,43.22567119,1
+p438,20,52.90529861,0
+o795,20,60.61005916,3
+y865,20,52.36198241,1
+x773,20,49.7397129,3
+w193,20,50.00513807,0
+j365,20,50.93935278,1
+q483,20,50.2398558,1
+j119,20,48.15820939,1
+e476,20,55.24927296,0
+w167,20,57.54815669,0
+q582,20,51.18597648,2
+p136,20,54.91379857,1
+w584,20,53.32350743,1
+b487,20,53.42766344,0
+y478,20,56.84885016,1
+g316,20,45.93332219,1
+a203,20,55.17333648,1
+o287,20,50.85614078,2
+j246,20,44.02037009,0
+j235,20,52.94290169,1
+m550,20,53.75794476,3
+a818,20,54.8346245,0
+i901,20,55.97440502,0
+v923,20,39.64829568,0
+c758,20,43.1263114,1
+v295,20,55.73137535,3
+k862,20,57.05784818,1
+z578,20,36.89001635,0
+o331,20,58.96572043,1
+g791,20,41.211897,0
+w697,20,54.22809098,3
+c819,20,49.76241475,1
+k403,20,32.99772858,1
+m133,20,52.63688249,1
+j984,20,54.37251567,1
+c832,20,56.71023353,1
+q597,20,41.9255866,0
+t565,20,39.0702138,0
+c402,20,54.88332044,2
+h333,20,51.99780618,2
+k510,20,52.10557382,1
+o973,20,51.9569931,1
+l700,20,50.73476811,1
+p981,20,50.35806947,0
+m650,20,56.7779388,2
+j989,20,41.63534426,1
+b879,20,53.98343568,1
+g107,20,62.70603145,0
+a644,20,45.86506461,0
+y793,20,40.71642815,2
+i557,20,43.96789516,0
+e291,20,52.53376479,1
+c580,20,55.57532195,2
+k382,20,57.82435071,2
+w422,20,53.67624336,1
+s508,20,35.92865083,0
+e584,20,50.34492095,2
+x264,20,53.07426973,1
+e213,20,52.61376289,2
+r921,20,44.13631588,0
+j755,20,55.49660753,1
+e662,20,44.0012958,0
+r701,20,54.11413742,0
+y260,20,50.72958174,3
+i177,20,35.34536136,0
+r811,20,40.7728027,0
+s565,20,57.04618912,1
+m546,20,36.71229535,0
+a366,20,57.28598742,0
+t724,20,57.22940914,0
+p387,20,56.5876168,0
+v289,20,54.25005397,0
+h246,20,57.93591218,1
+l725,20,59.6151548,2
+z969,20,57.89877823,2
+w540,20,50.67272745,2
+i334,20,39.6878317,0
+v835,20,51.29654266,2
+a444,20,41.71461874,0
+t451,20,51.06367793,0
+a492,20,53.67719253,0
+g288,20,42.95712001,1
+x402,20,50.41475041,2
+n923,20,52.59920611,1
+i738,20,38.53113634,0
+n364,20,37.4788685,0
+f234,20,51.11271293,2
+m601,20,34.2557317,1
+f993,20,52.07951009,1
+c458,20,39.50513508,2
+u196,20,46.10536303,1
+a411,20,38.08737318,1
+x930,20,52.55606575,0
+u327,20,53.18987907,0
+q610,20,46.58543347,0
+b559,20,55.65445572,1
+j913,20,42.16834132,0
+v603,20,53.72124193,0
+g497,20,55.09699356,1
+z795,20,53.28065717,1
+a520,20,35.94774514,0
+d474,20,51.73149416,0
+d251,20,37.65209085,1
+s710,20,42.62996266,1
+r604,20,51.90275292,1
+x401,20,36.06583471,0
+m269,20,61.14586638,0
+a963,20,51.46373448,0
+p189,20,56.53020447,3
+g989,20,54.65765008,1
+n304,20,49.25330863,1
+u149,25,52.92534846,0
+x264,25,56.89105283,2
+l725,25,65.00882889,2
+i177,25,34.0821803,1
+l471,25,52.84755893,1
+r944,25,41.08699106,1
+v295,25,57.69185918,3
+x930,25,53.7261013,0
+c927,25,56.54551947,2
+a520,25,36.55858129,1
+y865,25,57.17353846,2
+b559,25,57.04366929,1
+m546,25,37.44444543,0
+v991,25,60.01674733,2
+l700,25,54.23450181,1
+w167,25,61.86857673,0
+s710,25,43.06040875,1
+n304,25,53.97085924,2
+k210,25,54.61397279,0
+p438,25,54.51057493,0
+x581,25,51.93528318,3
+q582,25,51.96821056,2
+r604,25,52.93685812,1
+j119,25,42.41716589,1
+l490,25,55.81003359,2
+q483,25,52.43006649,1
+a275,25,53.57606417,1
+a818,25,56.96627332,0
+l733,25,54.95166826,1
+o287,25,52.06848642,3
+z969,25,63.14565213,2
+m133,25,54.08243662,2
+t565,25,37.34220976,0
+l509,25,44.00625702,2
+o795,25,65.74177723,4
+t724,25,59.82606797,1
+b759,25,55.08363235,0
+b487,25,56.05774909,1
+u196,25,46.7053254,1
+r701,25,57.89848998,1
+y478,25,57.82697598,1
+x773,25,51.10442109,3
+x822,25,54.04133326,2
+o809,25,52.31817407,1
+i557,25,44.59621854,0
+p136,25,56.28147652,1
+c559,25,54.55544168,2
+m269,25,64.89301976,0
+a788,25,56.7702803,1
+x401,25,36.61712031,0
+a963,25,52.12980374,0
+l897,25,45.35467916,0
+s337,25,50.9706889,2
+b313,25,55.74514628,1
+j989,25,39.93411249,1
+q511,25,57.25758287,0
+t451,25,55.52755345,0
+c302,25,55.07622853,3
+o926,25,54.76333852,3
+p981,25,52.5447048,1
+c264,25,56.96676876,2
+d251,25,38.09751328,1
+w540,25,52.60026955,2
+j365,25,51.8103204,1
+j913,25,37.86066936,0
+a411,25,38.7014384,1
+k894,25,52.32583833,2
+g296,25,55.6701066,3
+w914,25,40.29191661,0
+q610,25,40.14645019,0
+w575,25,58.58732169,1
+h333,25,53.73091434,2
+m601,25,33.11875607,1
+q633,25,55.6831017,1
+f234,25,52.17860221,2
+f545,25,60.25348139,1
+x402,25,52.43173664,2
+a401,25,54.20983551,3
+a492,25,54.70122868,1
+a444,25,42.29139437,0
+c458,25,37.75314964,2
+z795,25,57.94709984,2
+g989,25,56.04556353,1
+s185,25,33.94994037,0
+a366,25,59.01172817,0
+s187,25,56.48521984,1
+s565,25,58.55361079,1
+r921,25,42.65534089,1
+o302,25,60.51710253,0
+g570,25,56.8494056,1
+j755,25,58.05581822,1
+e213,25,55.22447615,2
+t718,25,55.87658787,3
+u364,25,35.50361557,2
+g558,25,55.75408257,2
+e584,25,51.38641908,2
+e291,25,55.1389525,2
+a644,25,41.48122408,0
+o562,25,54.74273316,1
+r811,25,37.61401068,0
+r107,25,57.70666715,1
+p387,25,58.09848946,0
+i635,25,52.92882323,1
+w350,25,52.80591518,1
+k403,25,33.46457735,1
+j984,25,57.06435479,1
+p310,25,55.34183416,2
+a897,25,56.41331977,3
+a699,25,51.84638147,0
+w697,25,57.6103943,3
+c402,25,58.26988853,2
+b742,25,38.61768433,0
+k862,25,58.7192973,2
+t198,25,56.18466399,3
+c758,25,43.6022673,1
+c757,25,57.10641821,2
+s141,25,53.80437038,1
+i901,25,56.575195,0
+b879,25,56.46998744,2
+v923,25,40.15641269,1
+y769,25,58.33595901,3
+g791,25,35.56939935,1
+c282,25,56.29220039,1
+s121,25,55.65068132,2
+g107,25,64.66362579,0
+k804,25,55.67480798,1
+w151,25,51.8690587,2
+d474,25,54.27932462,0
+e227,25,60.60029169,1
+m550,25,57.62068237,4
+r554,25,33.89334515,3
+f345,25,53.0788944,0
+c139,25,61.46196976,0
+g288,25,42.36869239,1
+p189,25,62.10895956,3
+g497,25,57.52444611,2
+g316,25,46.80922469,1
+y260,25,54.43756172,4
+c895,25,57.53419288,2
+i334,25,38.24881732,1
+h246,25,59.5488537,1
+k483,25,57.43200731,2
+z578,25,37.41411419,0
+c766,25,58.21462437,3
+a577,25,54.38093154,2
+c819,25,51.82835706,1
+q597,25,42.57570709,1
+c832,25,58.89181644,2
+i669,25,53.30318455,2
+a685,25,51.93995092,0
+a262,25,60.13186217,2
+m650,25,62.2535969,2
+y163,25,56.17638452,1
+n671,25,56.17445785,0
+v289,25,56.72009545,0
+b128,25,43.26214483,1
+m957,25,37.69543154,1
+o973,25,53.17981471,1
+n763,25,53.40587053,2
+o331,25,61.10230575,1
+j296,25,55.76714817,3
+q132,25,52.7804893,4
+w584,25,55.65083791,1
+j246,25,44.55522595,0
+e476,25,57.408638,0
+c580,25,56.28906231,2
+u327,25,56.05963409,0
+i386,25,56.68786392,3
+s152,25,64.11914213,2
+w422,25,56.95791715,2
+v603,25,56.07523001,1
+a251,25,57.4146457,1
+l661,25,53.18065678,2
+k382,25,59.50390392,3
+i738,25,34.97343761,0
+n923,25,56.85546498,2
+e662,25,44.66459432,1
+n364,25,33.20500824,0
+q787,25,52.71318786,2
+y793,25,38.9927339,2
+z581,25,54.31640682,2
+s508,25,36.33856894,0
+a203,25,56.79320832,1
+m650,30,64.90188755,3
+n763,30,55.41365961,3
+z578,30,37.81593487,0
+c758,30,44.11827028,1
+v923,30,40.75221626,2
+k862,30,60.60543979,3
+g570,30,60.32871705,1
+e584,30,54.98440767,3
+t198,30,56.92497431,3
+s141,30,55.84141007,1
+c139,30,64.14987077,1
+w422,30,60.09663467,3
+b742,30,39.1679495,0
+i557,30,45.26138381,0
+u364,30,35.9783344,2
+g316,30,44.22147988,2
+r921,30,43.41938077,1
+m550,30,60.85654272,4
+e213,30,56.45872864,3
+a203,30,59.52319728,1
+a644,30,37.21112063,0
+j755,30,60.00720978,1
+r107,30,58.40647256,1
+p387,30,63.26924552,0
+c895,30,60.96971133,2
+r811,30,38.24206639,0
+c580,30,58.04656941,3
+f345,30,54.36379731,1
+o302,30,62.03059364,1
+e662,30,45.35023242,1
+b879,30,60.90761481,2
+s565,30,63.66896678,1
+t718,30,57.70411372,3
+g558,30,58.95282911,3
+c757,30,60.09857184,2
+i901,30,60.59185755,0
+i635,30,53.5970382,2
+s187,30,60.00878263,2
+c402,30,63.74319428,2
+a699,30,54.37934505,0
+c264,30,57.82391556,2
+p136,30,57.05280546,1
+g497,30,61.108186,2
+d251,30,38.71825638,2
+r554,30,32.68065459,3
+j365,30,54.40488176,1
+z581,30,56.28674991,2
+a492,30,56.20104104,1
+a444,30,42.78627835,0
+q787,30,55.03620625,2
+a401,30,55.91016159,3
+f545,30,65.89398607,1
+x402,30,54.35158463,3
+f234,30,56.87381654,2
+a251,30,59.86124129,1
+q633,30,58.05725257,1
+c458,30,38.34200823,2
+v603,30,57.99055378,1
+j246,30,38.04408202,1
+w575,30,60.15306524,1
+w914,30,40.99311013,0
+q610,30,40.66834256,1
+i386,30,59.13364029,3
+m601,30,31.75827491,1
+k894,30,54.40012279,3
+u327,30,57.31407239,0
+g296,30,57.99770642,3
+j913,30,34.75724046,0
+q132,30,54.65654872,4
+i334,30,39.00555435,1
+x401,30,32.91529186,0
+o809,30,54.8326288,1
+c559,30,57.14614388,2
+o331,30,66.33066347,1
+a897,30,59.91693443,3
+a577,30,57.03186187,2
+j984,30,61.24050573,1
+q597,30,43.33916123,1
+k403,30,31.09949753,1
+w350,30,55.87990896,1
+c832,30,60.49637579,2
+s185,30,32.95967078,1
+w584,30,58.26844248,1
+y163,30,59.41253724,2
+g989,30,59.08229394,1
+h333,30,55.45528975,2
+a262,30,64.95809178,3
+w697,30,60.72063591,3
+p981,30,56.33910432,1
+c302,30,57.41974389,3
+t451,30,59.27582268,0
+k483,30,59.74707708,2
+q511,30,59.3643535,1
+o973,30,57.76995952,1
+l897,30,39.35279201,1
+j989,30,34.67178107,1
+g288,30,42.87446056,1
+s337,30,52.74771768,3
+a963,30,53.40166738,1
+k804,30,59.24061511,2
+d474,30,55.34134157,0
+a788,30,60.41370908,1
+m269,30,67.71250988,1
+o926,30,56.91739838,3
+b128,30,40.60533486,1
+a366,30,63.44068627,1
+r701,30,60.34181872,1
+m957,30,38.21247939,1
+v295,30,59.33377202,3
+b759,30,55.74282869,1
+n364,30,33.817758,0
+z969,30,65.84101274,3
+w151,30,56.76715821,2
+l700,30,56.653215,1
+o287,30,54.50300122,3
+t724,30,64.2345947,2
+r944,30,41.68079111,1
+x773,30,52.81311518,4
+l509,30,44.70805473,2
+a275,30,54.44471317,2
+g107,30,69.16051982,0
+s508,30,35.47402235,0
+l471,30,58.09360446,1
+u196,30,47.62281636,2
+p438,30,56.40642173,0
+j296,30,56.80306121,3
+n923,30,59.63256052,3
+a411,30,39.13073724,1
+l733,30,56.31906537,1
+p189,30,67.10453665,4
+n304,30,55.03901985,3
+q582,30,52.6488935,2
+g791,30,34.95258284,1
+n671,30,60.16518046,0
+e227,30,62.46438515,2
+o795,30,68.21706974,4
+r604,30,54.68821536,2
+x581,30,55.49282602,3
+c819,30,56.0989982,1
+l490,30,57.91838132,3
+a818,30,60.07237198,0
+c766,30,60.2559245,3
+l725,30,66.59954515,3
+q483,30,54.95222585,1
+t565,30,32.86891617,0
+j119,30,43.01368114,1
+l661,30,55.32909936,2
+m546,30,37.96993365,0
+x822,30,55.44515483,2
+k210,30,59.98950976,1
+w167,30,67.19787186,0
+h246,30,63.59960954,1
+s710,30,43.57170323,1
+v991,30,62.74364308,3
+b559,30,61.19038663,1
+i738,30,35.57877987,1
+z795,30,59.7896359,2
+c282,30,59.00590207,1
+e476,30,57.99279743,1
+k382,30,63.46944155,4
+y769,30,61.07194886,3
+o562,30,59.65352453,1
+i177,30,34.71147302,1
+y478,30,59.37461452,1
+y865,30,59.0332753,3
+a520,30,36.94770981,1
+x264,30,58.15869423,3
+a685,30,55.45385519,1
+y793,30,35.72602314,2
+y260,30,58.58267634,4
+c927,30,60.7539246,2
+i334,35,39.7695521,2
+l897,35,37.68276664,1
+o809,35,55.62942846,1
+a520,35,37.62471026,1
+p189,35,67.87377675,4
+k483,35,60.54156159,2
+x822,35,56.79656665,2
+a963,35,56.81397646,1
+l725,35,69.12570173,3
+l733,35,57.60079774,1
+m269,35,68.68991735,1
+y478,35,61.88802678,1
+s185,35,28.32853059,1
+s337,35,54.81081251,3
+o973,35,60.24221931,1
+d474,35,56.47911257,0
+h246,35,67.2112701,2
+j989,35,35.1155898,1
+k804,35,62.11727887,2
+e227,35,66.94912136,3
+w151,35,58.33914095,2
+q511,35,60.83866059,1
+l700,35,61.46260354,1
+t451,35,63.75698964,0
+e662,35,43.22027636,1
+z581,35,58.62839878,3
+c264,35,61.07479506,2
+w914,35,41.66491577,1
+l661,35,56.47412871,2
+v603,35,63.18943184,1
+j246,35,38.75326548,1
+q610,35,36.56165229,2
+l509,35,40.2072885,2
+m546,35,38.62753581,1
+w575,35,63.68644503,2
+i386,35,64.92542037,3
+y865,35,61.15313991,3
+n364,35,34.48752204,1
+i738,35,36.17595269,1
+k894,35,55.36266238,4
+c282,35,59.88765475,1
+g296,35,60.38451978,4
+u327,35,58.08902837,1
+j913,35,35.17014843,0
+y769,35,63.43063221,3
+m601,35,30.83435704,1
+a444,35,41.73595083,0
+q633,35,63.1256593,1
+l471,35,61.40599916,1
+a251,35,60.90388455,1
+x401,35,30.20682488,0
+n304,35,57.12241926,4
+o795,35,69.08509415,4
+p136,35,57.63078195,1
+n923,35,60.35629432,3
+r604,35,59.21700015,2
+t565,35,33.51567063,0
+d251,35,37.70852942,2
+j365,35,56.96120016,2
+c559,35,59.45504074,2
+a492,35,57.30855379,1
+g497,35,64.0948893,2
+z969,35,69.17624607,4
+a401,35,60.34714467,3
+f545,35,66.74292417,1
+u196,35,47.00146542,2
+x402,35,55.24096223,3
+r554,35,33.06933705,3
+q787,35,60.33385242,3
+f234,35,57.74875831,2
+j296,35,58.71448296,3
+c302,35,62.23657157,3
+c832,35,61.12448717,2
+g288,35,38.95411458,1
+f345,35,56.52332726,1
+g107,35,71.90511721,0
+b559,35,65.70576275,1
+r701,35,64.73001045,1
+m550,35,62.53915386,4
+x773,35,55.19273639,4
+b128,35,37.96764437,1
+p387,35,66.4922038,1
+t724,35,67.74432795,2
+s565,35,64.77657909,2
+r811,35,36.00302016,1
+i635,35,55.67999656,2
+o287,35,55.11829029,4
+c766,35,65.95236791,4
+o926,35,58.59399318,3
+r944,35,40.40176542,2
+i901,35,62.12733561,0
+g316,35,44.70283296,2
+a818,35,63.29854586,0
+m650,35,69.26574681,4
+b879,35,64.26088633,2
+z578,35,38.50482444,0
+n763,35,57.38241296,3
+y793,35,36.3278696,2
+u364,35,35.45948978,2
+k382,35,66.07918483,4
+t718,35,60.46389851,3
+e584,35,58.08655989,3
+e476,35,60.0643402,1
+v991,35,63.89531294,4
+g558,35,60.86215883,4
+z795,35,60.43565416,2
+i557,35,45.94194901,0
+p438,35,57.53855546,1
+w167,35,68.13428817,0
+i177,35,35.1521662,1
+a203,35,61.93165007,2
+a644,35,35.12863083,0
+c927,35,61.87227365,3
+j755,35,62.7328576,1
+y260,35,59.60355821,4
+w422,35,61.40961994,4
+x264,35,61.29960778,4
+g570,35,62.3304204,2
+e213,35,58.24585435,3
+q483,35,59.25348433,1
+c757,35,64.29116351,2
+a411,35,39.71723589,1
+o562,35,65.36076742,1
+a685,35,58.09262925,1
+a897,35,64.0528731,3
+g989,35,62.57087961,2
+o331,35,70.12623754,2
+q597,35,43.80720142,1
+j984,35,64.05539896,1
+v295,35,61.89315267,3
+q582,35,53.71315792,2
+k862,35,66.58072244,3
+j119,35,43.76570537,1
+k210,35,63.32933023,1
+y163,35,61.73019562,2
+a275,35,56.35353804,2
+w350,35,56.68355758,1
+s508,35,35.8461407,0
+k403,35,26.54699343,1
+a699,35,56.51068234,1
+s710,35,44.16051879,1
+c402,35,65.8079627,2
+c819,35,57.72953466,1
+x581,35,58.07758293,3
+c139,35,67.82141969,1
+a262,35,66.56196302,4
+m957,35,32.56283914,1
+b742,35,39.84757556,0
+c758,35,37.80238546,1
+v923,35,41.43924156,2
+w697,35,63.68904216,3
+p981,35,59.13102297,1
+t198,35,57.73594116,3
+g791,35,30.96039194,1
+a262,40,69.59273198,4
+a644,40,35.77945086,0
+i334,40,40.44237037,2
+a520,40,38.25972497,1
+k894,40,58.64705616,4
+e662,40,44.00672385,2
+n364,40,34.95473311,1
+k403,40,24.36550471,1
+b128,40,38.3797259,2
+i177,40,35.55793279,2
+c302,40,63.28107148,4
+s508,40,32.79817119,0
+y478,40,65.97112017,1
+t718,40,61.5303989,3
+c282,40,65.02179944,2
+o795,40,70.26647887,4
+m546,40,35.1145752,1
+z578,40,34.02209336,0
+g791,40,31.36940573,1
+c758,40,32.83318858,1
+d251,40,38.26540379,2
+c264,40,65.70832272,2
+u196,40,43.45368679,2
+c757,40,66.60436771,2
+r811,40,36.5200329,1
+c766,40,67.68529456,4
+e227,40,70.7152176,3
+n763,40,58.01114583,4
+f545,40,71.10811835,1
+r944,40,41.0420449,2
+x773,40,55.98767551,4
+s185,40,25.47214326,1
+a897,40,67.21174279,4
+q787,40,62.0341267,3
+a444,40,42.50492554,0
+m601,40,31.3780453,1
+t565,40,33.94934131,0
+q597,40,44.47182121,2
+j989,40,35.50119014,1
+u327,40,60.46654541,1
+b879,40,67.18912666,2
+j755,40,67.2077103,1
+y260,40,60.91417627,4
+g570,40,68.52585616,2
+a275,40,60.92153868,3
+s710,40,40.17192011,1
+s565,40,67.22100698,2
+p387,40,69.03887618,1
+l471,40,63.84485785,1
+i635,40,56.84243514,3
+e476,40,61.52527583,1
+k382,40,67.42095521,4
+j119,40,44.5850896,1
+i901,40,64.30345451,0
+a203,40,63.59349002,2
+b742,40,38.2556274,0
+w422,40,63.07258467,4
+k862,40,67.57134128,4
+t198,40,59.12995997,4
+k210,40,66.62283628,2
+a699,40,58.60544816,1
+f345,40,58.3155925,1
+v923,40,42.1510148,2
+m550,40,68.21072019,4
+l661,40,59.20566876,3
+o287,40,57.1971929,4
+v295,40,65.46607444,3
+e213,40,60.23654797,3
+w151,40,62.18795039,2
+p189,40,74.10609077,4
+t724,40,69.72832559,2
+q483,40,64.19234114,1
+r701,40,66.64072178,1
+p438,40,59.30528806,1
+a818,40,69.27381374,1
+x264,40,63.28328821,4
+c927,40,64.18322918,4
+a411,40,40.25881765,1
+j296,40,60.07268848,3
+a685,40,60.56790371,2
+z795,40,62.37663884,3
+v991,40,64.8511286,4
+h246,40,71.15083468,2
+u364,40,36.02413752,2
+o562,40,71.17246321,1
+m957,40,32.94761484,1
+c819,40,62.17570465,1
+x581,40,60.28040549,3
+e584,40,62.81687083,4
+g558,40,61.77496268,4
+y793,40,31.47541076,2
+i557,40,46.82106972,1
+j984,40,67.77708036,1
+l725,40,73.69349382,3
+g316,40,45.56582103,2
+p136,40,61.38024887,1
+r604,40,60.18611531,2
+a492,40,57.92849897,1
+k483,40,64.13872489,3
+o973,40,64.48781246,2
+j365,40,62.32717066,2
+d474,40,60.23373278,1
+l509,40,40.77081259,2
+z581,40,60.05373963,3
+a401,40,61.76860538,4
+g497,40,67.74281406,2
+x402,40,56.69172294,3
+y865,40,63.46954946,3
+q633,40,68.49863876,2
+z969,40,70.31490411,4
+a251,40,63.09507565,1
+w914,40,35.61130861,2
+w575,40,64.93840621,3
+r554,40,31.80484133,3
+i386,40,67.28962147,4
+j913,40,31.00186078,1
+g296,40,62.22191493,4
+i738,40,36.84389799,2
+c832,40,62.57231816,2
+c559,40,60.86184431,3
+x401,40,28.16739732,0
+n304,40,59.83050667,4
+w350,40,62.32434769,2
+m650,40,70.79706787,4
+c402,40,70.22229679,2
+b559,40,69.96961645,1
+o926,40,59.90304448,3
+c139,40,69.42814095,2
+l897,40,38.34390154,1
+x822,40,59.55568466,2
+l700,40,62.98667798,1
+t451,40,67.65479599,1
+y163,40,63.62067958,2
+q511,40,63.19442807,2
+l733,40,59.4435065,1
+m269,40,70.21464419,1
+y769,40,64.25102761,4
+g288,40,36.35685121,1
+n923,40,66.22960554,3
+a963,40,58.46378685,1
+o331,40,71.44774251,3
+s337,40,56.99481589,4
+n364,45,31.09533505,1
+b128,45,38.98287774,2
+l661,45,59.85195552,3
+y865,45,64.72983655,3
+y769,45,68.59474498,4
+b559,45,73.05136339,1
+t565,45,34.45529799,0
+c282,45,65.81516535,2
+l509,45,41.48300765,3
+j296,45,61.84902336,3
+a411,45,38.4076183,1
+p189,45,75.2949359,4
+m650,45,73.90139912,4
+q597,45,45.22086888,2
+g288,45,37.07402422,1
+o331,45,78.56701362,4
+y163,45,67.68556862,3
+i334,45,36.37451039,2
+c139,45,72.2267309,2
+c832,45,65.41595451,3
+a262,45,70.71762058,4
+z581,45,62.75445141,3
+g497,45,69.87225079,2
+a251,45,65.52574285,1
+q787,45,66.09647477,3
+r554,45,32.37735684,3
+k483,45,66.19691151,3
+w151,45,67.52748237,3
+g316,45,40.1592203,2
+m550,45,69.25350312,4
+e227,45,73.21293851,3
+a685,45,66.08306589,3
+s508,45,30.27623175,0
+h246,45,74.10408567,2
+y793,45,31.8962384,2
+c766,45,69.82314577,4
+z578,45,30.63869575,0
+m957,45,33.32909778,1
+e662,45,40.65900627,2
+e476,45,62.43540402,1
+k382,45,73.715619,4
+a203,45,67.97341878,2
+w422,45,67.98953001,4
+f345,45,60.91876652,1
+y260,45,62.90944062,4
+m546,45,30.56462509,1
+a818,45,74.99776443,2
+l471,45,67.74866174,1
+s337,45,62.10965102,4
+a963,45,62.76509317,1
+q511,45,68.61106075,3
+k403,45,22.05012627,1
+t451,45,68.7116302,1
+o926,45,62.32796606,4
+l897,45,38.84687569,1
+c302,45,64.57522157,4
+w350,45,64.95756185,2
+c402,45,74.04039018,3
+v923,45,40.65812366,2
+c758,45,33.39765251,1
+j984,45,70.65383162,1
+a699,45,62.19141437,1
+a897,45,72.25596306,4
+t198,45,64.91136268,4
+k862,45,69.29914907,4
+j989,45,36.13485243,1
+b742,45,38.93963263,0
+m269,45,75.12368955,1
+c264,45,67.94212107,2
+g296,45,68.16319517,4
+j913,45,31.56046955,1
+w575,45,68.40128593,3
+k894,45,60.75270417,4
+a444,45,43.0475426,0
+q633,45,70.82779631,2
+w914,45,36.04104736,2
+a401,45,66.79415599,4
+f545,45,73.32443228,1
+x402,45,61.61960615,3
+j365,45,64.29408493,2
+m601,45,28.43096411,1
+d251,45,37.31123552,2
+a492,45,60.12201052,1
+x401,45,28.48403281,0
+p136,45,63.48869678,2
+c559,45,61.84005842,4
+s185,45,23.34359787,1
+i738,45,37.31184577,2
+i901,45,65.34181087,0
+c757,45,69.04284082,3
+t724,45,75.11328801,2
+s710,45,40.72857787,1
+x581,45,64.63494887,3
+a275,45,62.99935619,3
+a520,45,38.81036633,1
+k210,45,68.92318457,3
+j119,45,38.1251644,1
+y478,45,66.84263453,1
+l725,45,76.66881742,3
+x822,45,61.38666032,3
+l700,45,63.94664044,1
+l733,45,64.29983003,1
+n304,45,63.58639514,4
+o795,45,73.05945435,4
+u196,45,40.66771292,3
+r604,45,62.67075904,3
+z969,45,73.86784476,4
+g791,45,29.12847181,1
+i635,45,58.63340414,3
+o287,45,59.74190064,4
+r701,45,69.77854407,1
+r811,45,37.22565033,1
+u327,45,66.26880133,2
+s565,45,72.58896447,2
+g570,45,70.49278763,2
+i557,45,47.68596303,1
+a644,45,32.97852192,1
+j755,45,69.56362076,1
+e213,45,63.1056963,4
+e584,45,68.3597767,4
+t718,45,63.42369517,4
+o562,45,72.45542116,2
+i177,45,33.56240217,3
+v991,45,70.16774899,4
+z795,45,65.74107029,3
+r944,45,41.58152074,2
+u364,45,31.02392294,3
+p438,45,61.43389223,1
+x773,45,58.63497149,4
+b879,45,72.55523894,2
